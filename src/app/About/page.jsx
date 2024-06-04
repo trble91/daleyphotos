@@ -1,7 +1,8 @@
 "use client";
 import Navbar from "@/src/Navbar/page";
+import Picture from "@/src/Picture";
 import React from "react";
-import Image from "next/image";
+
 
 export default function Bio() {
   return (
@@ -21,13 +22,9 @@ export default function Bio() {
             }
           </p>
         </div>
-        <Image
-             src="/aaron.png"
-             width={200}
-             height={100}
-             alt="text logo"
-                />
       </div>
+    <Picture 
+      className="flex-col "/>
     </>
   );
 }
