@@ -15,12 +15,12 @@ export default function Navbar() {
         }}
         animate={{
           x: 0,
-          y: 75,
+          y: 60,
           opacity: 1,
           scale: 1,
         }}
         transition={{
-          duration: 0.9,
+          duration: 0,
         }}
         className="flex items-center"
       >
@@ -33,11 +33,11 @@ export default function Navbar() {
       </motion.div>
       <nav className="flex justify-end mr-3 space-x-3">
         <Link href="/">Home</Link>
-        <Link href="/Photography">Photos</Link>
-        <Link href="/Blog">Blog</Link>
-        <Link href="/Contact">Contact</Link>
-        <Link href="/About">About</Link>
-        <Link href="/Service">Service</Link>
+        <Link href='/Blog'>Blog</Link>
+        <Link href='/Photography'>Photos</Link>
+        <Link href='/Contact'>Contact</Link>
+        <Link href='/About'>About</Link>
+        <Link href='/Service'>Service</Link>
       </nav>
     </div>
   );
