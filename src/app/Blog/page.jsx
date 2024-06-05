@@ -1,8 +1,10 @@
+'use client'
+
 import React from 'react'
 
-export default function page() {
+export default function Blog() {
   return (
-    <div>page</div>
+    <div>Blog</div>
 
   )
 }
