@@ -2,7 +2,8 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import Navbar from "@/src/Navbar/page";
+import Navbar from "@/Navbar/page";
+import Footer from "@/Footer/page";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -82,6 +83,7 @@ const ContactForm = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </>
   );
 };

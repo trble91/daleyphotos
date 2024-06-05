@@ -1,5 +1,5 @@
-import Footer from '@/src/Footer/page'
-import Navbar from '@/src/Navbar/page'
+import Footer from '@/Footer/page'
+import Navbar from '@/Navbar/page'
 import React from 'react'
 
 export default function Portraits() {

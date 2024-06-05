@@ -3,7 +3,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Navbar from "@/src/Navbar/page";
+import Navbar from "@/Navbar/page";
+
 
 export default function Homepage() {
   return (

@@ -1,5 +1,6 @@
 "use client";
-import Navbar from "@/src/Navbar/page";
+import Footer from "@/Footer/page";
+import Navbar from "@/Navbar/page";
 import React from "react";
 
 export default function Bio() {
@@ -21,6 +22,7 @@ export default function Bio() {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 }

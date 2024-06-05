@@ -1,6 +1,7 @@
 "use client";
 
-import Navbar from "@/src/Navbar/page";
+import Footer from "@/Footer/page";
+import Navbar from "@/Navbar/page";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -71,6 +72,7 @@ export default function Photography() {
           </motion.div>
         </>
       </div>
+      <Footer />
     </>
   );
 }
