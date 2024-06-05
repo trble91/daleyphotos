@@ -8,7 +8,7 @@ import Navbar from "@/src/Navbar/page";
 export default function Homepage() {
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       <main className="min-h-screen items-center">
         <motion.div
           initial={{

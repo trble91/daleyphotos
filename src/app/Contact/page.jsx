@@ -31,7 +31,7 @@ const ContactForm = () => {
 
   return (
     <>
-    <Navbar />
+    {/* <Navbar /> */}
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
         <p className="flex-col text-center">
           To inquire about any and all services. Fill out this contact form
