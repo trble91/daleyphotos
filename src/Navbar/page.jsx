@@ -5,7 +5,6 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Navbar() {
-
   return (
     <div className="-mt-20">
       <motion.div
@@ -34,13 +33,11 @@ export default function Navbar() {
       </motion.div>
       <nav className="flex justify-end mr-3 space-x-3">
         <Link href="/">Home</Link>
-        <Link href="/Blog">
-          Blog
-        </Link>
         <Link href="/Photography">Photos</Link>
+        <Link href="/Blog">Blog</Link>
         <Link href="/Contact">Contact</Link>
         <Link href="/About">About</Link>
-        <Link href="/Work">Service</Link>
+        <Link href="/Service">Service</Link>
       </nav>
     </div>
   );
