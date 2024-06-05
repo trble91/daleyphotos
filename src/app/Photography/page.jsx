@@ -3,10 +3,16 @@
 import Navbar from "@/src/Navbar/page";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { useParams } from "next/navigation";
 
 export default function Photography() {
+
   const imageSources = ["/bride.jpg", "/groom-large.jpg"];
   const imageSources2 = ["/Bailey-bw.png", "/yankee-Large.jpeg"];
+
+  // const { imgCard } = useParams();
+
+  
   return (
     <>
     <Navbar />
