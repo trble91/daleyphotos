@@ -6,26 +6,26 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb:  245, 240, 250;
+  --background-start-rgb: 255, 253, 255;
   --background-end-rgb:  255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 20, 30, 40;
-    --background-end-rgb: 30, 40, 30;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 253, 255;
+    --background-end-rgb:  255, 255, 255;
   }
 }
 
 
 
 text {
-  background-color: bisque;
+ color: black;
 }
 @media (prefers-color-scheme: dark) {
   text {
-background-color:antiquewhite;
+color:antiquewhite;
   }
 }
 body {

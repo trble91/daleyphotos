@@ -25,7 +25,7 @@ export default function Navbar() {
         className="flex items-center"
       >
         <Image
-          src="/assets/whtLogo.png"
+          src="/assets/blkLogo.png"
           width="200"
           height="100"
           alt="text logo"

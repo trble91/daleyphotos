@@ -9,9 +9,6 @@ import Footer from "@/Footer/page";
 
 export default function Homepage() {
 
-  const homeImage = 
-    { src: '/love.jpg', href: '/Weddings', text: 'Weddings' }
-    
   return (
     <>
     <Navbar />
@@ -33,7 +30,7 @@ export default function Homepage() {
           }}
           className="flex flex-col items-center"
         >
-          <Image src="/love.jpg" width={700} height={500} alt={homeImage.text} />
+          <Image src="/assets/love.jpg" width={700} height={500} alt="love" />
         </motion.div>
       </main>
       <Footer />
