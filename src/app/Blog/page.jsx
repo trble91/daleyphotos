@@ -25,8 +25,8 @@ export default function Blog() {
          </section>
      <div className="ml-8 uppercase">Date & Name</div>
       <h1 className="text-xl text-end mr-8">Photo Trends</h1>
-      <section className="flex snap-center min-w-[600px] ml-96 mb-4 mr-8">
-        <p className="flex text-end">
+      <section className="flex snap-center min-w-[600px] ml-96 mb-4">
+        <p className="flex text-end mr-8">
           Pellentesque bibendum dolor lectus, vitae molestie nulla maximus non.
           Curabitur egestas velit fringilla dui dignissim, luctus pharetra dolor
           luctus. Sed ac scelerisque diam. Proin accumsan ut mauris sed
@@ -43,7 +43,6 @@ export default function Blog() {
         </p>
       </section>
       <div className="text-end mr-8 uppercase">Date & Name</div>
-
       <Footer />
     </>
   );

@@ -14,8 +14,8 @@ export default function Bio() {
         <p className="absolute top-44 uppercase tracking-[5px] text-neutral-800 text-xl sm:text-neutral-800">
           W. Daley
         </p>
-        <div className="flex absolute flex-row text-start text-neutral-800 text-lg top-56 xl:flex-row max-w-[500px] items-center snap-center">
-          <p className="flex relative text-left text-m">
+        <div className="flex absolute flex-row text-start text-neutral-800 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
+          <p className="flex relative text-left text-m mb-8">
             Embarking on a photography journey that captures the essence of
             weddings, special events, and creative design, I strive to tell
             unique stories through my lens, preserving cherished moments and
@@ -31,10 +31,7 @@ export default function Bio() {
             pellentesque pulvinar lectus porta. Integer tempor, arcu vel
             placerat eleifend, nulla metus facilisis risus, nec pharetra eros
             ante sed enim. Maecenas varius erat eget ex ultrices, vel tempor
-            ante commodo. Suspendisse ut consectetur tortor. Phasellus et ornare
-            sapien, a congue lacus. In accumsan a nunc id fringilla. Orci varius
-            natoque penatibus et magnis dis parturient montes, nascetur
-            ridiculus mus. 
+            ante commodo. 
           </p>
         </div>
       </div>
