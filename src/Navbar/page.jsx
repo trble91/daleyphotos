@@ -25,13 +25,13 @@ export default function Navbar() {
         className="flex items-center"
       >
         <Image
-          src="/W-Daley-black-highres.png"
+          src="/assets/whtLogo.png"
           width="200"
           height="100"
           alt="text logo"
         />
       </motion.div>
-      <nav className="flex justify-end space-x-3 mr-6">
+      <nav className="flex justify-end space-x-3 mr-6 text-stone-300">
         <Link href="/">Home</Link>
         <Link href="/Photography">Photos</Link>
         <Link href="/Blog">Blog</Link>
