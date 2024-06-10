@@ -21,7 +21,7 @@ export default function Portraits() {
     <>
       <Navbar />
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 uppercase tracking-[10px] text-stone-300 text-md sm:text-stone-300 sm:text-base md:text-stone-300 lg:text-stone-300 xl:text-gray-800">
+        <h3 className="mt-10 uppercase tracking-[10px] text-stone-300 text-md>
           Portraits
         </h3>
         <motion.div
