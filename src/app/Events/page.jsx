@@ -19,7 +19,7 @@ export default function Events() {
     <>
       <Navbar />
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 uppercase tracking-[10px] text-gray-700 text-md sm:text-gray-700 sm:text-base md:text-gray-700 lg:text-gray-700 xl:text-gray-800">
+        <h3 className="mt-10 uppercase tracking-[10px] text-stone-300 text-md">
           Lifestyle/Events
         </h3>
         <motion.div

@@ -99,5 +99,5 @@ export default function Photography() {
         </div>
       <Footer />
     </>
-  );
+  )
 }
