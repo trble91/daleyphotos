@@ -32,7 +32,7 @@ export default function Navbar() {
       <nav className="flex justify-end space-x-3 mr-6 text-stone-300">
         {links.map((link) => (
           <Link key={link.href} href={link.href}>
-            {link.label}
+            <a className="hover:text-stone-500">{link.label}</a>
           </Link>
         ))}
       </nav>
