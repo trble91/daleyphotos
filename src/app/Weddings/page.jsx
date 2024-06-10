@@ -9,12 +9,12 @@ export default function Weddings() {
   const Weddings = [
     "/Weddings/baby.jpg",
     "/Weddings/bliss.JPG",
-    "/Weddings/cake.jpg",
     "/Weddings/cake2.jpg",
     "/Weddings/fun.jpg",
-    "/Weddings/groom.jpg",
-    "/Weddings/photos.jpg",
     "/Weddings/rings.jpg",
+    "/Weddings/photos.jpg",
+    "/Weddings/cake.jpg",
+    "/Weddings/groom.jpg",
   ];
 
   return (

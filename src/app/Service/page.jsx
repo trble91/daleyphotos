@@ -11,7 +11,7 @@ export default function Service() {
     '5hour coverage',
     'Two 30sec content reel',
     'Digital Wedding Album',
-    'USB-C drive w/ images',
+    'USB-C drive w/images',
   ];
 
   const eventFeatures = [
@@ -19,7 +19,7 @@ export default function Service() {
     '3hour coverage',
     '30sec content reel',
     'Digital Photo Collage',
-    'USB-C drive with images',
+    'USB-C drive w/images',
   ];
 
   const portraitFeatures = [
@@ -27,13 +27,13 @@ export default function Service() {
     'Two hours',
     'Three Looks',
     'Four edits',
-    '5% off next shoot w/ proven referral',
+    '5% off next shoot w/referral',
   ];
 
   return (
     <>
       <Navbar />
-      <div className="flex relative ml-10 text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 snap-center">
+      <div className="flex relative text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 xl:ml-10 snap-center">
         <h3 className="absolute top-20 items-center uppercase tracking-[20px] text-2xl text-stone-300">
           Service
         </h3>

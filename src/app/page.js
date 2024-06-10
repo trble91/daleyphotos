@@ -7,9 +7,11 @@ import Homepage from "./Homepage/page";
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen flex-col items-center">
-        <Homepage />
-      </main>
+      <React.StrictMode>
+        <main className="min-h-screen flex-col items-center">
+          <Homepage />
+        </main>
+      </React.StrictMode>
     </>
   );
 }
