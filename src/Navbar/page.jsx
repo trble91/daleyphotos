@@ -29,7 +29,7 @@ export default function Navbar() {
           alt="text logo"
         />
       </motion.div>
-      <nav className="flex justify-end space-x-3 mr-6 text-stone-300">
+      <nav className="flex justify-end space-x-3 mr-6 text-stone-300 font-thin uppercase tracking-[2px]">
         {links.map((link) => (
           <Link key={link.href} href={link.href}>
             <div className="hover:text-stone-500 cursor-pointer">{link.label}</div>
