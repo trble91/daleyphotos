@@ -2,6 +2,7 @@
 import Footer from "@/Footer/page";
 import Navbar from "@/Navbar/page";
 import React from "react";
+import Logo from "../Components/Logo";
 
 export default function Bio() {
   return (
@@ -11,9 +12,8 @@ export default function Bio() {
         <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-300 text-2xl sm:text-stone-300">
           About
         </h3>
-        <p className="absolute top-44 uppercase tracking-[5px] text-stone-300 text-xl sm:text-stone-300">
-          W. Daley
-        </p>
+        <Logo />
+
         <div className="flex absolute flex-row text-start text-stone-300 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
           <p className="flex relative text-left text-m mb-8">
             Embarking on a photography journey that captures the essence of
