@@ -77,7 +77,7 @@ const ContactForm = () => {
           </label>
           <button
             type="submit"
-            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-600 hover:text-stone-300 active:bg-stone-600"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-600 hover:text-stone-300 active:bg-stone-500"
           >
             Submit
           </button>
