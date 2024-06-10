@@ -1,7 +1,7 @@
 "use client";
 
-import Footer from "@/Footer/page";
-import Navbar from "@/Navbar/page";
+import Footer from "@/Footer/page.jsx";
+import Navbar from "@/Navbar/page.jsx";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
