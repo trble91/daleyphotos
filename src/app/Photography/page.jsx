@@ -21,7 +21,7 @@ export default function Photography() {
         <h3 className="uppercase tracking-[10px] text-stone-300 text-xl mb-8">
           Portraits, Weddings & Events
         </h3>
-
+<div classname="flex-row">
         {imageSources.map((image, index) => (
           <motion.div
             key={index}
@@ -54,17 +54,17 @@ export default function Photography() {
               </div>
             </Link>
             <div className="p-6">
-              <h5 className="text-xl font-semibold text-gray-900 mb-2">
+              <h5 className="text-xl font-semibold text-neutral-900 mb-2">
                 {image.text}
               </h5>
-              <p className="text-base font-light text-gray-700">
+              <p className="text-base font-light text-neutral-700">
                 {image.description}.
               </p>
             </div>
             <div className="p-6 pt-0">
               <Link href={image.href}>
                 <button
-                  className="block w-full py-3 text-xs font-bold uppercase transition bg-gray-900 text-white rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+                  className="block w-full py-3 text-xs font-bold uppercase transition bg-stone-600 text-stone-300 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
                   type="button"
                 >
                   Read More
@@ -73,7 +73,7 @@ export default function Photography() {
             </div>
           </motion.div>
         ))}
-
+      </div>
       </div>
       <Footer />
     </>
