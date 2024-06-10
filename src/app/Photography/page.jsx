@@ -8,81 +8,72 @@ import Link from 'next/link';
 
 export default function Photography() {
   const imageSources = [
-    { src: '/bride.jpg', href: '/Weddings', text: 'Weddings' }, 
-    { src: '/groom-large.jpg', href: '/Weddings', text: 'Weddings' },
-    { src: '/Bailey-bw.png', href: '/Portraits', text: 'Portraits' },
-    { src: '/yankee-Large.jpeg', href: '/Events', text: 'Events' }
+    { src: '/assets/bride.jpg', href: '/Weddings', text: 'Weddings', description: "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae"}, 
+    { src: '/assets/groom-large.jpg', href: '/Weddings', text: 'Weddings', description: "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae" },
+    { src: '/assets/Bailey-bw.png', href: '/Portraits', text: 'Portraits', description: "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae"},
+    { src: '/assets/yankee-Large.jpeg', href: '/Events', text: 'Events' ,  description: "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae"}
   ];
 
   return (
     <>
       <Navbar />
-      <div className="flex sticky flex-row text-center sm:max-w-[300px] md:flex-row md:text-left xl:flex-row max-w-[400px] xl:px-5 min-h-screen justify-center xl:space-y-4 mx-auto items-center snap-center">
-        <h3 className="absolute top-6 uppercase tracking-[17px] text-stone-300 text-md sm:text-stone-300 sm:text-base md:text-stone-300 lg:text-stone-300 xl:text-stone-800">
-          Portraits Weddings & Events
+      <div className="flex flex-col items-center space-y-6 min-h-screen py-12">
+        <h3 className="uppercase tracking-[10px] text-stone-300 text-xl mb-8">
+          Portraits, Weddings & Events
         </h3>
-        <motion.div
-          initial={{
-            x: -500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            duration: 2.0,
-          }}
-          className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
-        >
-          {imageSources.slice(0, 2).map((image, index) => (
-            <Link href={image.href} key={index} className="relative">
-              <Image
-                src={image.src}
-                alt={`Image ${index + 1}`}
-                width={400}
-                height={200}
-                className="w-full h-full object-cover"
-              />
-              <span className="absolute inset-0 flex items-center justify-center text-stone-300 font-bold text-l bg-black bg-opacity-50">
-                {image.text}
-              </span>
+
+        {imageSources.map((image, index) => (
+          <motion.div
+            key={index}
+            initial={{
+              x: index % 2 === 0 ? -500 : 500,
+              opacity: 0,
+              scale: 0.5,
+            }}
+            animate={{
+              x: 0,
+              opacity: 1,
+              scale: 1,
+            }}
+            transition={{
+              duration: 2.0,
+            }}
+            className="relative flex flex-col text-center bg-white shadow-md rounded-xl w-96 mx-4"
+          >
+            <Link href={image.href} className="relative">
+              <div className="relative h-56 overflow-hidden rounded-t-xl">
+                <Image
+                  src={image.src}
+                  alt={`Image ${index + 1}`}
+                  layout="fill"
+                  className="object-cover"
+                />
+                <span className="absolute inset-0 flex items-center justify-center uppercase text-stone-200 font-thin text-lg bg-black bg-opacity-50">
+                  {image.text}
+                </span>
+              </div>
             </Link>
-          ))}
-        </motion.div>
-        <motion.div
-          initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            duration: 2.0,
-          }}
-          className="flex relative flex-col bottom-20 top-2 text-center mt-20 snap-center"
-        >
-          {imageSources.slice(2, 4).map((image, index) => (
-            <Link href={image.href} key={index} className="relative">
-              <Image
-                src={image.src}
-                alt={`Image ${index + 1}`}
-                width={400}
-                height={200}
-                className="w-full h-full object-cover"
-              />
-              <span className="absolute inset-0 flex items-center justify-center text-stone-300 font-bold text-l bg-black bg-opacity-50">
+            <div className="p-6">
+              <h5 className="text-xl font-semibold text-gray-900 mb-2">
                 {image.text}
-              </span>
-            </Link>
-          ))}
-        </motion.div>
+              </h5>
+              <p className="text-base font-light text-gray-700">
+                {image.description}.
+              </p>
+            </div>
+            <div className="p-6 pt-0">
+              <Link href={image.href}>
+                <button
+                  className="block w-full py-3 text-xs font-bold uppercase transition bg-gray-900 text-white rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+                  type="button"
+                >
+                  Read More
+                </button>
+              </Link>
+            </div>
+          </motion.div>
+        ))}
+
       </div>
       <Footer />
     </>

@@ -6,15 +6,15 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start: #7f786d;
-  --background-end:  #7f786d;
+  --background-start-rgb: 127, 120, 109;
+  --background-end-rgb:  127, 120, 109;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 0, 0, 0;
-    --background-start: #23211e;
-    --background-end:  #23211e;
+    --background-start-rgb: 25,23,20;
+    --background-end-rgb: 35,33,30;
   }
 }
 
