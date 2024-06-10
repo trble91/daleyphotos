@@ -34,7 +34,7 @@ const ContactForm = () => {
     <>
     <Navbar />
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
-        <p className="flex-col text-center text-stone-300">
+        <p className="flex-col text-center max-w-[500px] text-stone-300 font-thin">
           To inquire about any and all services. Fill out this contact form
           expressing your photography needs.
         </p>
@@ -77,7 +77,7 @@ const ContactForm = () => {
           </label>
           <button
             type="submit"
-            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-800 active:bg-stone-600"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-800 hover:text-stone-300 active:bg-stone-600"
           >
             Submit
           </button>

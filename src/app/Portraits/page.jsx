@@ -36,7 +36,7 @@ export default function Portraits() {
             scale: 1,
           }}
           transition={{
-            duration: 2.0,
+            duration: 1.5,
           }}
           className="flex relative text-center snap-center"
         >
@@ -64,7 +64,7 @@ export default function Portraits() {
             scale: 1,
           }}
           transition={{
-            duration: 2.0,
+            duration: 1.8,
           }}
           className="flex relative text-center snap-center"
         >
