@@ -8,13 +8,13 @@ export default function Bio() {
     <>
       <Navbar />
       <div className="flex relative ml-10 text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 snap-center">
-        <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-neutral-800 text-2xl sm:text-neutral-800">
+        <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-300 text-2xl sm:text-stone-300">
           About
         </h3>
-        <p className="absolute top-44 uppercase tracking-[5px] text-neutral-800 text-xl sm:text-neutral-800">
+        <p className="absolute top-44 uppercase tracking-[5px] text-stone-300 text-xl sm:text-stone-300">
           W. Daley
         </p>
-        <div className="flex absolute flex-row text-start text-neutral-800 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
+        <div className="flex absolute flex-row text-start text-stone-300 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
           <p className="flex relative text-left text-m mb-8">
             Embarking on a photography journey that captures the essence of
             weddings, special events, and creative design, I strive to tell

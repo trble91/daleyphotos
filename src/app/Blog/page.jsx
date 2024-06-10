@@ -10,9 +10,9 @@ export default function Blog() {
 
       {/* Blog Card 1 */}
       <div className="max-w-[600px] ml-4 mb-4">
-        <h1 className="text-xl">New Site</h1>
+        <h1 className="text-xl text-stone-300">New Site</h1>
         <section className="flex">
-          <p className="flex text-m">
+          <p className="flex text-m text-stone-300 font-thin">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
             laoreet facilisis metus, id vulputate nisi dictum sed. In ornare
             turpis ac augue ultrices, sed pretium dui sodales. Cras tincidunt nisl
@@ -29,9 +29,9 @@ export default function Blog() {
 
       {/* Blog Card 2 */}
       <div className="min-w-[600px] ml-96 mb-4">
-        <h1 className="text-xl">Photo Trends</h1>
+        <h1 className="text-xl text-stone-300">Photo Trends</h1>
         <section className="flex">
-          <p className="flex text-end mr-8">
+          <p className="flex text-end mr-8 text-stone-300 font-thin">
             Pellentesque bibendum dolor lectus, vitae molestie nulla maximus non.
             Curabitur egestas velit fringilla dui dignissim, luctus pharetra dolor
             luctus. Sed ac scelerisque diam. Proin accumsan ut mauris sed

@@ -34,15 +34,15 @@ const ContactForm = () => {
     <>
     <Navbar />
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
-        <p className="flex-col text-center">
+        <p className="flex-col text-center text-stone-300">
           To inquire about any and all services. Fill out this contact form
           expressing your photography needs.
         </p>
         <form
           onSubmit={handleSubmit}
-          className="max-w-md w-full bg-white p-6 rounded-lg shadow-md mt-5 mb-10"
+          className="max-w-md w-full bg-stone-200 p-6 rounded-lg shadow-md mt-5 mb-10"
         >
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label className="block text-stone-700 text-sm font-bold mb-2">
             Name:
             <input
               type="text"
@@ -50,10 +50,10 @@ const ContactForm = () => {
               placeholder="Full Name"
               value={formData.name}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-gray-300"
+              className="form-input mt-1 block w-full rounded-sm border-stone-700 bg-stone-200"
             />
           </label>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label className="block text-stone-700 text-sm font-bold mb-2">
             Email:
             <input
               type="email"
@@ -61,23 +61,23 @@ const ContactForm = () => {
               placeholder="Email@something.com"
               value={formData.email}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-gray-300"
+              className="form-input mt-1 block w-full rounded-sm border-stone-700 bg-stone-200"
             />
           </label>
-          <label className="block text-gray-700 text-sm font-bold mb-2">
+          <label className="block text-stone-700 text-sm font-bold mb-2">
             Message:
             <textarea
               name="message"
               placeholder="No more than 250 characters"
               value={formData.message}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-gray-300 resize-none bg-white"
+              className="form-input mt-1 block w-full rounded-sm border-stone-700 resize-none bg-stone-200"
               rows="4"
             />
           </label>
           <button
             type="submit"
-            className="text-gray-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-200 active:bg-stone-200"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-800 active:bg-stone-600"
           >
             Submit
           </button>
