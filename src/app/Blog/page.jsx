@@ -8,7 +8,7 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="text-center mt-4 mb-8 text-stone-300">Blog</div>
+      <div className="text-center mt-16 mb-20 uppercase text-bold tracking-[20px] text-stone-300">Blog</div>
 
       {/* Blog Card 1 */}
       <div className="max-w-[600px] ml-4 mb-4">
@@ -31,7 +31,7 @@ export default function Blog() {
 
       {/* Blog Card 2 */}
       <div className="min-w-[600px] ml-96 mb-4">
-        <h1 className="text-xl text-stone-300">Photo Trends</h1>
+        <h1 className="text-xl text-end mr-8 text-stone-300">Photo Trends</h1>
         <section className="flex">
           <p className="flex text-end mr-8 text-stone-300 font-thin">
             Pellentesque bibendum dolor lectus, vitae molestie nulla maximus non.
