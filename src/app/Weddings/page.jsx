@@ -8,11 +8,11 @@ import Image from "next/image";
 export default function Weddings() {
   const Weddings = [
     "/Weddings/baby.jpg",
-    "/Weddings/bliss.JPG",
+    "/Weddings/bliss.jpg",
     "/Weddings/cake2.jpg",
     "/Weddings/fun.jpg",
     "/Weddings/rings.jpg",
-    "/Weddings/photos.jpg",
+    "/Weddings/photos.JPG",
     "/Weddings/cake.jpg",
     "/Weddings/groom.jpg",
   ];

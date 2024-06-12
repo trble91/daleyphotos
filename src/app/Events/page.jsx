@@ -7,12 +7,12 @@ import Image from "next/image";
 
 export default function Events() {
   const eventImg = [
-    "/events/kids.jpg",
-    "/events/yoba.jpg",
-    "/events/kids2.jpg",
-    "/events/fight.JPG",
-    "/events/stans.jpg",
-    "/events/train.jpg",
+    "/Events/kids.jpg",
+    "/Events/yoba.JPG",
+    "/Events/kids2.jpg",
+    "/Events/fight.JPG",
+    "/Events/stans.JPG",
+    "/Events/train.jpg",
   ];
 
   return (
