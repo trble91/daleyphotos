@@ -56,7 +56,7 @@ export default function Blog() {
       </div> 
 
       {/* Blog Card 2 */}
-      <div className="mb-4 mr-4 flex justify-end">
+      <div className="mb-4 mr-4 mt-4 flex justify-end">
         <div className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
             <Image
