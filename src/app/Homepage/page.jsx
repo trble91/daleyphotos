@@ -21,14 +21,14 @@ export default function Homepage() {
           }}
           animate={{
             x: 25,
-            y: 50,
+            y: 40,
             opacity: 1,
             scale: 1,
           }}
           transition={{
             duration: 0.9,
           }}
-          className="flex flex-col items-center"
+          className="flex flex-col items-center sm:mr-10"
         >
           <Image src="/assets/love.jpg" width={700} height={500} alt="love" />
         </motion.div>

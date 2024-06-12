@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function Photography() {
   const imageSources = [
     {
-      src: "/assets/Bailey-bw.png",
+      src: "/assets/groom-large.jpg",
       href: "/Portraits",
       text: "Portraits",
       description:

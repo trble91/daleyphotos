@@ -1,6 +1,5 @@
 "use client";
 
-import Logo from "@/app/Components/Logo";
 import Link from "next/link";
 
 export default function Navbar() {
@@ -15,8 +14,7 @@ export default function Navbar() {
 
   return (
     <>
-      {/* <Logo /> */}
-      <nav className="flex justify-end space-x-3 mt-12 mr-6 text-sm text-stone-300 font-thin uppercase tracking-[2px]">
+      <nav className="flex justify-end space-x-2 mt-12 mr-6 text-stone-300 font-thin uppercase tracking-[2px]">
         {links.map((link) => (
           <Link
             key={link.href}
