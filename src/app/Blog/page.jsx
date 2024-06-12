@@ -60,7 +60,7 @@ export default function Blog() {
         <div className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
           <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
             <Image
-              src="/weddings/rings.jpg"
+              src="/Weddings/rings.jpg"
               alt=""
               layout="responsive"
               width={700}
