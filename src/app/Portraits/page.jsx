@@ -8,13 +8,13 @@ import Image from "next/image";
 export default function Portraits() {
   const portraits = [
     "/Portraits/bee1.jpg",
-    "/Portraits/fellas.jpg",
-    "/Portraits/guy1.jpg",
-    "/Portraits/prom1.jpg",
-    "/Portraits/prom2.jpg",
-    "/Portraits/woman1.jpg",
-    "/Portraits/woman2.jpg",
-    "/Portraits/woman3.jpg",
+    "/Portraits/fellas.JPG",
+    "/Portraits/guy1.JPG",
+    "/Portraits/prom1.JPG",
+    "/Portraits/prom2.JPG",
+    "/Portraits/woman1.JPG",
+    "/Portraits/woman2.JPG",
+    "/Portraits/woman3.JPG",
   ];
 
   return (
