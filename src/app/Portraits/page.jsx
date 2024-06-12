@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Portraits() {
   const portraits = [
     "/portraits/bee1.jpg",
-    "/portraits/fellas.JPG",
+    "/portraits/fellas.jpg",
     "/portraits/guy1.jpg",
     "/portraits/prom1.jpg",
     "/portraits/prom2.jpg",
