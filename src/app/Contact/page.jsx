@@ -12,6 +12,8 @@ const ContactForm = () => {
     message: "",
   });
 
+  const [status, setStatus] = useState("");
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -19,20 +21,21 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    setStatus("Sending...");
+
     try {
-      // Replace the URL with your own backend endpoint for handling form submissions
       const response = await axios.post("/api/contact", formData);
       console.log("Form submitted successfully:", response.data);
-      // You can redirect or show a success message here
+      setStatus("Message sent successfully!");
     } catch (error) {
       console.error("Error submitting form:", error);
-      // Handle errors or show an error message to the user
+      setStatus("Failed to send message.");
     }
   };
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
         <p className="flex-col text-center max-w-[500px] text-stone-300 font-thin">
           To inquire about any and all services. Fill out this contact form
@@ -81,6 +84,7 @@ const ContactForm = () => {
           >
             Submit
           </button>
+          {status && <p className="mt-4 text-stone-700">{status}</p>}
         </form>
       </div>
       <Footer />
