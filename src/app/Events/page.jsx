@@ -12,7 +12,7 @@ export default function Events() {
     "/Events/kids2.jpg",
     "/Events/fight.JPG",
     "/Events/stans.JPG",
-    "/Events/train.jpg",
+    "/Events/train.JPG",
   ];
 
   return (
