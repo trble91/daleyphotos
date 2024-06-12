@@ -1,7 +1,8 @@
-"use client"
+"use client";
 
 import Footer from "@/Footer/page";
 import Navbar from "@/Navbar/page";
+import Image from "next/image";
 import React from "react";
 
 export default function Blog() {
@@ -11,45 +12,93 @@ export default function Blog() {
       <div className="text-center mt-16 mb-20 uppercase text-bold tracking-[20px] text-stone-300">Blog</div>
 
       {/* Blog Card 1 */}
-      <div className="max-w-[600px] ml-4 mb-4">
-        <h1 className="text-xl text-stone-300">New Site</h1>
-        <section className="flex">
-          <p className="flex text-m text-stone-300 font-thin">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-            laoreet facilisis metus, id vulputate nisi dictum sed. In ornare
-            turpis ac augue ultrices, sed pretium dui sodales. Cras tincidunt nisl
-            vel velit mollis accumsan. Ut augue nunc, eleifend et blandit et,
-            malesuada ac lorem. In vel feugiat nibh, vel sagittis ipsum. Vivamus
-            hendrerit nisl id eros viverra, nec varius urna consequat. Vivamus
-            finibus rutrum risus sit amet aliquet. Praesent fermentum consectetur
-            ipsum, nec placerat nunc luctus ac. Etiam rhoncus blandit placerat.
-            Integer ut vestibulum nulla. Mauris eget dapibus dolor.
+      <div className="relative ml-4 flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+          <Image
+            src="/assets/yankee-Large.jpeg"
+            alt=""
+            layout="responsive"
+            width={700}
+            height={475}
+          />
+        </div>
+        <div className="p-6">
+          <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+          Best F-stop
+          </h4>
+          <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+            It&apos;s all opionated! However, the sweet spot for many lenses are within tht 2.0-4.0 range.
           </p>
-        </section>
-        <div className="uppercase text-stone-300">Date & Name</div>
-      </div>
+        </div>
+        <div className="flex items-center justify-between p-6">
+          <div className="flex items-center -space-x-3">
+            {/* <Image 
+              alt=""
+              src=""
+              className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
+              layout="fixed"
+              width={36}
+              height={36}
+            /> */}
+            {/* <Image 
+              alt=""
+              src=""
+              className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
+              layout="fixed"
+              width={36}
+              height={36}
+            /> */}
+          </div>
+          <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
+            27 Jul 
+          </p>
+        </div>
+      </div> 
 
       {/* Blog Card 2 */}
-      <div className="min-w-[600px] ml-96 mb-4">
-        <h1 className="text-xl text-end mr-8 text-stone-300">Photo Trends</h1>
-        <section className="flex">
-          <p className="flex text-end mr-8 text-stone-300 font-thin">
-            Pellentesque bibendum dolor lectus, vitae molestie nulla maximus non.
-            Curabitur egestas velit fringilla dui dignissim, luctus pharetra dolor
-            luctus. Sed ac scelerisque diam. Proin accumsan ut mauris sed
-            eleifend. Nunc nunc ligula, ultrices sed euismod non, suscipit a
-            lectus. Aenean lacinia mattis justo, et varius magna malesuada vel.
-            Phasellus mollis diam et dui dapibus, in interdum sem vestibulum.
-            Morbi at dapibus eros. Donec molestie consequat ante et auctor. In
-            feugiat tristique elit, in faucibus dolor hendrerit sed. Fusce a
-            auctor magna, at ultrices purus. Quisque porttitor augue non maximus
-            pulvinar. Aliquam ut dignissim mi, ac semper leo. Fusce ultricies,
-            purus ultricies finibus pellentesque, nisl erat lacinia leo, sed
-            vehicula massa augue eu turpis. Cras lectus odio, rutrum a quam id,
-            laoreet varius purus.
-          </p>
-        </section>
-        <div className="text-end mr-8 uppercase text-stone-300">Date & Name</div>
+      <div className="mb-4 mr-4 flex justify-end">
+        <div className="relative flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+          <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+            <Image
+              src="/weddings/rings.jpg"
+              alt=""
+              layout="responsive"
+              width={700}
+              height={475}
+            />
+          </div>
+          <div className="p-6">
+            <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+              My First Wedding
+            </h4>
+            <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+              The day I shot my first wedding, and the tools I had with me at the time.
+            </p>
+          </div>
+          <div className="flex items-center justify-between p-6">
+            <div className="flex items-center -space-x-3">
+              {/* <Image 
+                alt="natali craig"
+                src=""
+                className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
+                layout="fixed"
+                width={36}
+                height={36}
+              />
+              <Image 
+                alt="Tania Andrew"
+                src=""
+                className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
+                layout="fixed"
+                width={36}
+                height={36}
+              /> */}
+            </div>
+            <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
+              01 Oct 
+            </p>
+          </div>
+        </div>  
       </div>
 
       <Footer />
