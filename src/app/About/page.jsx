@@ -28,11 +28,7 @@ export default function Bio() {
             leo maximus, semper dictum sapien. Donec id est posuere elit
             faucibus tristique nec ut justo. Donec eleifend lorem ex, id congue
             sapien tempus sed. Donec nisl tellus, rutrum pellentesque commodo
-            sed, ultricies eget augue. Morbi gravida ante posuere neque laoreet,
-            pellentesque pulvinar lectus porta. Integer tempor, arcu vel
-            placerat eleifend, nulla metus facilisis risus, nec pharetra eros
-            ante sed enim. Maecenas varius erat eget ex ultrices, vel tempor
-            ante commodo. 
+            sed, ultricies eget augue.
           </p>
         </div>
       </div>
