@@ -13,21 +13,21 @@ export default function Photography() {
       href: "/Portraits",
       text: "Portraits",
       description:
-        "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae",
+        "Capture life's precious moments with stunning portrait photography in Metro Atlanta and Gwinnett County! Whether it's a family gathering, a milestone celebration, or a personal portrait session, our experienced photographers bring out the best in you and your loved ones. Book your session today and create memories that will last a lifetime. Contact us now for a special offer!",
     },
     {
       src: "/assets/bride.jpg",
       href: "/Weddings",
       text: "Weddings",
       description:
-        "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae",
+        "",
     },
     {
       src: "/assets/yankee-Large.jpeg",
       href: "/Events",
       text: "Events",
       description:
-        "Lorem ipsum photos de num. Nam de mis su en franchisee. Ye eva us sa name ausur jek jnasxjo iwrueh hnoa bcaj f cnoa no. huaodcboae",
+        "Capture life's special events with stunning photography in Metro Atlanta and Gwinnett County! From weddings and parties to corporate gatherings and community events, our experienced photographers ensure every moment is beautifully documented. Book your event photography session today and preserve your memories in vivid detail. Contact us now for a special offer!",
     },
   ];
 
