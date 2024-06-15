@@ -20,7 +20,7 @@ export default function Photography() {
       href: "/Weddings",
       text: "Weddings",
       description:
-        "",
+        "Capture the magic of your special day with beautiful wedding photography in Metro Atlanta and Gwinnett County! Our talented photographers focus on creating and preserving your most cherished moments, ensuring every smile, tear, and kiss is beautifully documented. Book your wedding photography session today and let us make your memories last a lifetime. Contact us now for a special offer!",
     },
     {
       src: "/assets/yankee-Large.jpeg",
