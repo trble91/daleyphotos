@@ -33,7 +33,7 @@ export default function Service() {
   return (
     <>
       <Navbar />
-      <div className="flex relative text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 xl:ml-10 snap-center">
+      <div className="flex relative text-center sm:mb-8 md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 xl:ml-10 snap-center">
         <h3 className="absolute ml-8 top-20 items-center uppercase tracking-[20px] text-2xl text-stone-200">
           Services
         </h3>
