@@ -13,33 +13,35 @@ const BlogPost = ({ title, text, images }) => {
   });
 
   return (
-    <div className="relative ml-4 flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-4">
-      <div className="relative m-0 overflow-hidden text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
-        {images.map((image, index) => (
-          <Image
-            key={index}
-            src={image}
-            alt=""
-            layout="responsive"
-            width={700}
-            height={475}
-          />
-        ))}
+    <>
+      <div className="relative  ml-4 max-w-[24rem] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-4">
+        <div className="relative m-0 overflow-scroll text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
+          {images.map((image, index) => (
+            <Image
+              key={index}
+              src={image}
+              alt=""
+              layout="responsive"
+              width={700}
+              height={475}
+            />
+          ))}
+        </div>
+        <div className="p-6">
+          <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+            {title}
+          </h4>
+          <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
+            {text}
+          </p>
+        </div>
+        <div className="flex items-center justify-between p-6">
+          <p className="block font-sans uppercase text-base antialiased font-normal leading-relaxed text-inherit">
+            Posted on: {dateTime}
+          </p>
+        </div>
       </div>
-      <div className="p-6">
-        <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          {title}
-        </h4>
-        <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
-          {text}
-        </p>
-      </div>
-      <div className="flex items-center justify-between p-6">
-        <p className="block font-sans uppercase text-base antialiased font-normal leading-relaxed text-inherit">
-          Posted on: {dateTime}
-        </p>
-      </div>
-    </div>
+    </>
   );
 };
 
@@ -91,21 +93,19 @@ const Blog = () => {
   return (
     <>
       <Navbar />
-      <div className="text-center justify-center mt-16 mb-20 uppercase text-xl font-bold tracking-[20px] text-stone-300">
+      <div className="text-center items-center mt-16 mb-20 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
-
-      <div className="flex flex-row">
-        {BlogPosts.map((post, index) => (
-          <BlogPost
-            key={index}
-            title={post.title}
-            text={post.text}
-            images={post.images}
-          />
-        ))}
-      </div>
-
+        <div className="grid flex-col place-items-center min-h-screen py-12">
+          {BlogPosts.map((post, index) => (
+            <BlogPost
+              key={index}
+              title={post.title}
+              text={post.text}
+              images={post.images}
+            />
+          ))}
+        </div>
       <Footer />
     </>
   );
