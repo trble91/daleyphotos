@@ -21,7 +21,7 @@ export default function Weddings() {
     <>
       <Navbar />
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 uppercase tracking-[10px] text-stone-300 text-md sm:text-stone-300 sm:text-base">
+        <h3 className="mt-10 uppercase tracking-[10px] text-stone-200 text-md sm:text-stone-300 sm:text-base">
           Weddings
         </h3>
         <motion.div

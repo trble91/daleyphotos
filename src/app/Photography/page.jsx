@@ -35,7 +35,7 @@ export default function Photography() {
     <>
       <Navbar />
       <div className="flex flex-col items-center space-y-6 min-h-screen py-12">
-        <h3 className="uppercase tracking-[10px] text-center text-stone-300 text-xl mb-8">
+        <h3 className="uppercase tracking-[10px] text-center text-stone-200 text-xl mb-8">
           Portraits, Weddings & Events
         </h3>
         {imageSources.map((image, index) => (
@@ -80,7 +80,7 @@ export default function Photography() {
             <div className="p-6 pt-0">
               <Link href={image.href}>
                 <button
-                  className="block w-full py-3 text-xs font-thin uppercase transition bg-stone-600 text-stone-300 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+                  className="block w-full py-3 text-xs font-thin uppercase transition bg-slate-600 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
                   type="button"
                 >
                   View More

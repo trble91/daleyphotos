@@ -10,12 +10,12 @@ export default function Bio() {
       <Navbar />
       <div className="flex flex-col items-center space-y-6 min-h-screen py-12 snap-center">
       {/* <div className="flex relative ml-10 text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 snap-center"> */}
-        <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-300 text-2xl sm:text-stone-300">
+        <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-200 text-2xl sm:text-stone-300">
           About
         </h3>
         <Logo />
 
-        <div className="flex absolute flex-row text-start text-stone-300 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
+        <div className="flex absolute flex-row text-start text-stone-200 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
           <p className="flex relative text-center font-thin text-m mb-8">
             Embarking on a photography journey that captures the essence of
             weddings, special events, and creative design, I strive to tell
