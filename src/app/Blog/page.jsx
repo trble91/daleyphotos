@@ -9,7 +9,7 @@ export default function Blog() {
   return (
     <>
       <Navbar />
-      <div className="text-center mt-16 mb-20 uppercase text-bold tracking-[20px] text-stone-300">Blog</div>
+      <div className="text-center mt-16 mb-20 uppercase text-xl text-bold tracking-[20px] text-stone-300">Blog</div>
 
       {/* Blog Card 1 */}
       <div className="relative ml-4 flex max-w-[24rem] flex-col overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
@@ -77,22 +77,7 @@ export default function Blog() {
           </div>
           <div className="flex items-center justify-between p-6">
             <div className="flex items-center -space-x-3">
-              {/* <Image 
-                alt="natali craig"
-                src=""
-                className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
-                layout="fixed"
-                width={36}
-                height={36}
-              />
-              <Image 
-                alt="Tania Andrew"
-                src=""
-                className="relative inline-block h-9 w-9 rounded-full border-2 border-white object-cover object-center hover:z-10"
-                layout="fixed"
-                width={36}
-                height={36}
-              /> */}
+      
             </div>
             <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
               01 Oct 
