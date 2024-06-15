@@ -15,7 +15,7 @@ export default function Bio() {
         </h3>
         <Logo />
 
-        <div className="flex absolute flex-row text-start text-stone-200 text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
+        <div className="flex absolute flex-row text-start text-stone-200 sm:text-center text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
           <p className="flex relative text-center font-thin text-m mb-8">
             Embarking on a photography journey that captures the essence of
             weddings, special events, and creative design, I strive to tell
