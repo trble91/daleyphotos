@@ -5,6 +5,14 @@ import React from "react";
 import Logo from "../Components/Logo";
 
 export default function Bio() {
+  const about = 
+    `My photography journey is a vibrant tapestry woven from my eclectic upbringing and artistic aspirations. Despite struggling in school, I was encouraged to explore creativity. Raised as a first-generation American to West Indian parents, music shaped my early years—from Al Green to Tupac, each note fueled my passion.
+Transitioning from music to photography, I found a new canvas to express emotions and stories. Each click of the shutter became a brushstroke in my visual narrative—a journey from capturing intimate portraits to vibrant landscapes.
+Driven by a thirst for knowledge and a desire to push boundaries, photography became my avenue to blend creativity and storytelling. From earning recognition to seeing my vision come to life, every photo tells a story of courage and artistic evolution.
+Join me on this journey where creativity knows no bounds. Together, let's inspire and illuminate the world one click at a time.
+
+`
+
   return (
     <>
       <Navbar />
@@ -16,19 +24,8 @@ export default function Bio() {
         <Logo />
 
         <div className="flex absolute flex-row text-start text-stone-200 sm:text-center text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
-          <p className="flex relative text-center font-thin text-m mb-8">
-            Embarking on a photography journey that captures the essence of
-            weddings, special events, and creative design, I strive to tell
-            unique stories through my lens, preserving cherished moments and
-            crafting visually stunning memories. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Nunc dictum lectus ut lectus malesuada,
-            at vulputate mauris finibus. Quisque dui arcu, eleifend eu ex at,
-            suscipit rutrum erat. Pellentesque turpis lorem, condimentum a
-            lectus quis, tempor consequat diam. Aenean dolor dolor, laoreet at
-            leo maximus, semper dictum sapien. Donec id est posuere elit
-            faucibus tristique nec ut justo. Donec eleifend lorem ex, id congue
-            sapien tempus sed. Donec nisl tellus, rutrum pellentesque commodo
-            sed, ultricies eget augue.
+          <p className="flex relative ml-4 text-left font-thin text-m mb-8">
+           {about}
           </p>
         </div>
       </div>
