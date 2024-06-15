@@ -18,19 +18,17 @@ Join me on this journey where creativity knows no bounds. Together, let's inspir
     <>
       <Navbar />
       <div className="flex flex-col items-center space-y-6 min-h-screen py-12 snap-center">
-      {/* <div className="flex relative ml-10 text-center md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 snap-center"> */}
         <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-200 text-2xl sm:text-stone-300">
           About
         </h3>
         <Logo />
 
         <div className="flex absolute flex-row text-start text-stone-200 sm:text-center text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
-          <p className="flex relative ml-2 text-left font-thin text-m mb-8">
+          <p className="flex relative ml-4 text-left font-thin text-m mb-8">
            {about}
           </p>
         </div>
       </div>
-      {/* </div> */}
       <Footer />
     </>
   );
