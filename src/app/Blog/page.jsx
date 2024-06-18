@@ -91,7 +91,7 @@ const Blog = () => {
   return (
     <>
      
-      <div className="text-center items-center mt-16 mb-20 uppercase text-xl font-bold tracking-[20px] text-stone-300">
+      <div className="text-center items-center mt-16 mb-8 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
         <div className="grid flex-col place-items-center min-h-screen py-12">
