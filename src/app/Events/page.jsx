@@ -1,7 +1,5 @@
 "use client";
 
-import Footer from "@/Footer/page";
-import Navbar from "@/Navbar/page";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -17,7 +15,7 @@ export default function Events() {
 
   return (
     <>
-      <Navbar />
+  
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
         <h3 className="mt-10 uppercase tracking-[10px] text-stone-200 text-md">
           Lifestyle/Events
@@ -79,7 +77,7 @@ export default function Events() {
           ))}
         </motion.div>
       </div>
-      <Footer />
+
     </>
   );
 }

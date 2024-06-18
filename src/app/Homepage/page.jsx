@@ -3,15 +3,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Navbar from "@/Navbar/page";
-import Footer from "@/Footer/page";
-
 
 export default function Homepage() {
 
   return (
     <>
-    <Navbar />
+
       <main className="min-h-screen items-center">
         <motion.div
           initial={{
@@ -33,7 +30,7 @@ export default function Homepage() {
           <Image src="/assets/love.jpg" width={700} height={500} alt="love" />
         </motion.div>
       </main>
-      <Footer />
+   
     </>
   );
 }

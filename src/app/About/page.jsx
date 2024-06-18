@@ -14,7 +14,7 @@ export default function Bio() {
     
   return (
     <>
-      <Navbar />
+
       <div className="flex flex-col items-center space-y-6 min-h-screen py-12 snap-center">
         <h3 className="absolute top-24 items-center uppercase tracking-[20px] text-stone-200 text-2xl sm:text-stone-300">
           About
@@ -26,7 +26,7 @@ export default function Bio() {
           </p>
         </div>
       </div>
-      <Footer />
+      
     </>
   );
 }

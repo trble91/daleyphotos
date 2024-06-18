@@ -8,7 +8,7 @@ export default function Logo() {
     <div className="-mt-42 ">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.7 }}
-        animate={{ x: 20, y: -25, opacity: 1, scale: 1.2 }}
+        animate={{ x: 5, y: -25, opacity: 1, scale: 1.2 }}
         transition={{ duration: 0.5 }}
         className="items-center"
       >

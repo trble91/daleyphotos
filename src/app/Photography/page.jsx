@@ -1,7 +1,5 @@
 "use client";
 
-import Footer from "@/Footer/page.jsx";
-import Navbar from "@/Navbar/page.jsx";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,8 +31,7 @@ export default function Photography() {
 
   return (
     <>
-      <Navbar />
-      <div className="flex-col items-center space-y-6 min-h-screen py-12">
+      <div className="flex flex-col items-center space-y-6 min-h-screen py-12">
         <h3 className="uppercase tracking-[10px] text-center text-stone-200 text-xl mb-8">
           Portraits, Weddings & Events
         </h3>
@@ -54,7 +51,7 @@ export default function Photography() {
             transition={{
               duration: 1.5,
             }}
-            className="relative flex flex-col text-center bg-white shadow-md rounded-xl w-96 mx-4"
+            className="relative flex flex-col text-center bg-white shadow-md rounded-xl w-96 sm:mx-2 xl:mx-9"
           >
             <Link href={image.href} className="relative">
               <div className="relative h-56 overflow-hidden rounded-t-xl">
@@ -90,7 +87,7 @@ export default function Photography() {
           </motion.div>
         ))}
       </div>
-      <Footer />
+  
     </>
   );
 }

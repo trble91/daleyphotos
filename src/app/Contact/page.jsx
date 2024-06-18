@@ -2,8 +2,6 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import Navbar from "@/Navbar/page";
-import Footer from "@/Footer/page";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -35,7 +33,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <Navbar />
+   
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
         <p className="flex-col text-center max-w-[500px] text-stone-300 font-thin">
           To inquire about any and all services. Fill out this contact form
@@ -87,7 +85,7 @@ const ContactForm = () => {
           {status && <p className="mt-4 text-stone-700">{status}</p>}
         </form>
       </div>
-      <Footer />
+    
     </>
   );
 };
