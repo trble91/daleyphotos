@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Logo from './Logo';
-import Homepage from '../Homepage/page';
 
 const SplashScreen = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -16,7 +15,7 @@ const SplashScreen = () => {
   }, []);
 
   return (
-    <AnimatePresence>
+    <AnimatePresence>0
       {isVisible && (
         <motion.div
           initial={{ opacity: 1, scale: 1 }}
