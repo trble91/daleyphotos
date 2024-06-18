@@ -12,7 +12,7 @@ const BlogPost = ({ title, text, images }) => {
 
   return (
     <>
-      <div className="relative  ml-4 max-w-[24rem] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-4">
+      <div className="relative max-w-[24rem] overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mb-4">
         <div className="relative m-0 overflow-scroll text-gray-700 bg-transparent rounded-none shadow-none bg-clip-border">
           {images.map((image, index) => (
             <Image
@@ -91,10 +91,10 @@ const Blog = () => {
   return (
     <>
      
-      <div className="text-center items-center mt-16 mb-8 uppercase text-xl font-bold tracking-[20px] text-stone-300">
+      <div className="text-center items-center mt-16 -mb-2 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
-        <div className="grid flex-col place-items-center min-h-screen py-12">
+        <div className="flex flex-col place-items-center min-h-screen py-12">
           {BlogPosts.map((post, index) => (
             <BlogPost
               key={index}

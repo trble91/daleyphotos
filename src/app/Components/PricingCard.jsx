@@ -3,7 +3,7 @@ import React from "react";
 const PricingCard = ({ title, price, features }) => {
   return (
   
-      <div className="relative flex-col bg-clip-border rounded-xl  bg-gradient-to-tr from-slate-900 to-slate-500 text-stone-200 shadow-stone-400/20 shadow-md w-full max-w-[20rem] p-8 mt-10">
+      <div className="relative flex-col bg-clip-border rounded-xl  bg-gradient-to-tr from-gray-700 to-gray-500 text-stone-200 shadow-gray-400/20 shadow-md w-full max-w-[20rem] p-8 mt-10">
         <div className="relative pb-8 m-0 -mt-4 mb-8 overflow-hidden text-center text-stone-300 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
           <p className="block font-sans text-sm antialiased font-normal leading-normal text-stone-300 uppercase">
             {title}
@@ -44,6 +44,7 @@ const PricingCard = ({ title, price, features }) => {
           <button
             className="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm py-3.5 px-7 rounded-lg bg-slate-600 text-blue-gray-900 shadow-md shadow-blue-gray-500/10 hover:shadow-lg hover:shadow-blue-gray-500/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none block w-full hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
             type="button"
+            href='/contact'
           >
             Book Now
           </button>
