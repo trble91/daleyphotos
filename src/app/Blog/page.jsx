@@ -1,8 +1,6 @@
 "use client";
 
 import React from "react";
-import Navbar from "@/Navbar/page";
-import Footer from "@/Footer/page";
 import Image from "next/image";
 
 const BlogPost = ({ title, text, images }) => {
@@ -92,7 +90,7 @@ const Blog = () => {
 
   return (
     <>
-      <Navbar />
+     
       <div className="text-center items-center mt-16 mb-20 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
@@ -106,7 +104,7 @@ const Blog = () => {
             />
           ))}
         </div>
-      <Footer />
+   
     </>
   );
 };
