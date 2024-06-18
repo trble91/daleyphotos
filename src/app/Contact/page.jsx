@@ -62,10 +62,10 @@ const ContactForm = () => {
               placeholder="Email@something.com"
               value={formData.email}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-stone-700 bg-stone-200"
+              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
             />
           </label>
-          <label className="block text-stone-700 text-sm font-bold mb-2">
+          <label className="block text-gray-700 text-sm font-bold mb-2">
             Message:
             <textarea
               name="message"
@@ -78,11 +78,11 @@ const ContactForm = () => {
           </label>
           <button
             type="submit"
-            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-stone-400 focus:shadow-outline-gray-700 hover:bg-stone-600 hover:text-stone-300 active:bg-stone-500"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-gray-400 focus:shadow-outline-gray-700 hover:bg-gray-600 hover:text-gray-300 active:bg-gray-500"
           >
             Submit
           </button>
-          {status && <p className="mt-4 text-stone-700">{status}</p>}
+          {status && <p className="mt-4 text-gray-700">{status}</p>}
         </form>
       </div>
     
