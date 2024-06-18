@@ -3,7 +3,7 @@ import React from "react";
 const PricingCard = ({ title, price, features }) => {
   return (
   
-      <div className="relative flex flex-col bg-clip-border rounded-xl  bg-gradient-to-tr from-slate-900 to-slate-500 text-stone-200 shadow-stone-400/20 shadow-md w-full max-w-[20rem] p-8 mt-10">
+      <div className="relative flex-col bg-clip-border rounded-xl  bg-gradient-to-tr from-slate-900 to-slate-500 text-stone-200 shadow-stone-400/20 shadow-md w-full max-w-[20rem] p-8 mt-10">
         <div className="relative pb-8 m-0 -mt-4 mb-8 overflow-hidden text-center text-stone-300 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
           <p className="block font-sans text-sm antialiased font-normal leading-normal text-stone-300 uppercase">
             {title}
