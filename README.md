@@ -29,4 +29,5 @@ Hello! I'm Will Daley, a passionate photographer based in [Your Location]. My ph
 
 ### My Story
 I began my photography journey six years ago after the passing of my mother. It was a transformative time, and through the lens, I found solace and a way to connect with the world around me. Since then, I've traveled across the nation, capturing stunning images that tell unique stories. For me, photography isn't just a hobby; it's a way of life.
+
 ---
