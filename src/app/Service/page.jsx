@@ -4,6 +4,7 @@ import React from 'react';
 import PricingCard from '@/app/Components/PricingCard.jsx';
 
 export default function Service() {
+
   const weddingFeatures = [
     '1 Photographer',
     '5hour coverage',
