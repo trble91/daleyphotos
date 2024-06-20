@@ -9,9 +9,8 @@ export async function POST(request) {
   const emailService = process.env.EMAIL_SERVICE;
   const emailUser = process.env.EMAIL_USER;
   const emailPassword = process.env.EMAIL_PASSWORD;
-  const recipientEmail = process.env.RECIPIENT_EMAIL;
 
-  if (!emailService || !emailUser || !emailPassword || !recipientEmail) {
+  if (!emailService || !emailUser || !emailPassword) {
     console.error('Missing email configuration');
     return NextResponse.json({ error: "Email configuration is missing" }, { status: 500 });
   }
@@ -26,7 +25,7 @@ export async function POST(request) {
 
   const mailOptions = {
     from: emailUser,
-    to: recipientEmail,
+    to:  emailUser,
     subject: "New Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
   };
