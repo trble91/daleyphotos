@@ -71,7 +71,7 @@ export default function Photography() {
                 {image.text}
               </h5>
               <p className="text-base font-light text-neutral-700">
-                {image.description}.
+                {image.description}
               </p>
             </div>
             <div className="p-6 pt-0">
