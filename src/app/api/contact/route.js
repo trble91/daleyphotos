@@ -29,6 +29,7 @@ export async function POST(request) {
     to:  recipient,
     subject: "New Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+    html: `<h2> ${name} </h2><p>${message}</p>`
   };
 
   try {

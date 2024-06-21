@@ -68,19 +68,7 @@ const ContactForm = () => {
               className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
             />
           </label>
-          <label className="block text-stone-700 text-sm font-bold mb-2">
-            Confirm Email:
-            <input
-              required
-              type="email"
-              name="Confirm email"
-              autoComplete="email"
-              placeholder="Email@example.com"
-              value={formData.email}
-              onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
-            />
-          </label>
+          
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Message:
             <textarea
