@@ -25,9 +25,9 @@ export default function Homepage() {
           transition={{
             duration: 0.9,
           }}
-          className="flex flex-col items-center sm:mr-10"
+          className="flex flex-col items-center sm:mr-12"
         >
-          <Image src="/assets/love.jpg" width={700} height={500} alt="love" />
+          <Image src="/assets/love.jpg" width={500} height={500} alt="love" className="grid place-items-center"/>
         </motion.div>
       </main>
    
