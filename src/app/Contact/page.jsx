@@ -33,7 +33,6 @@ const ContactForm = () => {
 
   return (
     <>
-   
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
         <p className="flex-col text-center max-w-[500px] text-stone-300 font-thin">
           To inquire about any and all services. Fill out this contact form
@@ -48,6 +47,7 @@ const ContactForm = () => {
             <input
               type="text"
               name="name"
+              autoComplete="given-name"
               placeholder="Full Name"
               value={formData.name}
               onChange={handleChange}
@@ -59,6 +59,7 @@ const ContactForm = () => {
             <input
               type="email"
               name="email"
+              autoComplete="family-name"
               placeholder="Email@something.com"
               value={formData.email}
               onChange={handleChange}
@@ -85,7 +86,6 @@ const ContactForm = () => {
           {status && <p className="mt-4 text-gray-700">{status}</p>}
         </form>
       </div>
-    
     </>
   );
 };
