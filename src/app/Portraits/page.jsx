@@ -107,7 +107,7 @@ export default function Portraits() {
               height={100}
               className="w-fit h-fit object-cover"
             />
-            <p className="mt-4">{selectedImage.description}</p>
+            <p className="mt-4 font-light text-md max-w-[300px]">{selectedImage.description}</p>
             <button
               onClick={closeModal}
               className="mt-4 px-4 py-2 bg-slate-500 text-white rounded"
