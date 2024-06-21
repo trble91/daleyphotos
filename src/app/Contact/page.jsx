@@ -45,6 +45,7 @@ const ContactForm = () => {
           <label className="block text-stone-700 text-sm font-bold mb-2">
             Name:
             <input
+              required
               type="text"
               name="name"
               autoComplete="given-name"
@@ -57,10 +58,24 @@ const ContactForm = () => {
           <label className="block text-stone-700 text-sm font-bold mb-2">
             Email:
             <input
+              required
               type="email"
               name="email"
               autoComplete="email"
-              placeholder="Email@something.com"
+              placeholder="Email@example.com"
+              value={formData.email}
+              onChange={handleChange}
+              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
+            />
+          </label>
+          <label className="block text-stone-700 text-sm font-bold mb-2">
+            Confirm Email:
+            <input
+              required
+              type="email"
+              name="Confirm email"
+              autoComplete="email"
+              placeholder="Email@example.com"
               value={formData.email}
               onChange={handleChange}
               className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
@@ -69,8 +84,9 @@ const ContactForm = () => {
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Message:
             <textarea
+              required
               name="message"
-              placeholder="No more than 250 characters"
+              placeholder="No more than 250 words"
               value={formData.message}
               onChange={handleChange}
               className="form-input mt-1 block w-full rounded-sm border-stone-700 resize-none bg-stone-200"
@@ -79,7 +95,7 @@ const ContactForm = () => {
           </label>
           <button
             type="submit"
-            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-gray-400 focus:shadow-outline-gray-700 hover:bg-gray-600 hover:text-gray-300 active:bg-gray-500"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-gray-400 focus:shadow-outline-gray-700 hover:bg-slate-600 hover:text-gray-300 active:bg-gray-500"
           >
             Submit
           </button>
