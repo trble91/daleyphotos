@@ -59,7 +59,7 @@ const ContactForm = () => {
             <input
               type="email"
               name="email"
-              autoComplete="family-name"
+              autoComplete="email"
               placeholder="Email@something.com"
               value={formData.email}
               onChange={handleChange}
