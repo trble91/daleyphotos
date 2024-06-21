@@ -29,16 +29,16 @@ export async function POST(request) {
     to:  recipient,
     subject: "New Contact Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
-    html: `<h2> ${name} </h2><p>${message}</p>`
+    html: `<h3> ${name}</h3><h4>${email}</h4><p>${message}</p>`
   };
 
   try {
     const info = await transporter.sendMail(mailOptions);
     console.log("Email sent successfully:", info.response);
-    return NextResponse.json({ success: true }, { status: 200 });
-  } catch (error) {
+  } 
+  catch (error) {
     console.error("Error sending email:", error.message);
     console.error("Error details:", error);
-    return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
+  return NextResponse.json({ success: true }, { status: 200 }) ||  NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
 }
