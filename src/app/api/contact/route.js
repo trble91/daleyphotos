@@ -11,7 +11,7 @@ export async function POST(request) {
   const emailPassword = process.env.EMAIL_PASSWORD;
   const recipient = process.env.RECIPIENT_EMAIL;
 
-  if (!emailService || !emailUser || !emailPassword) {
+  if (!emailService || !emailUser || !emailPassword || !recipient) {
     console.error('Missing email configuration');
     return NextResponse.json({ error: "Email configuration is missing" }, { status: 500 });
   }
