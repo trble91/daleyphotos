@@ -37,7 +37,7 @@ export default function Service() {
           Services
         </h3>
         <div className="flex relative flex-row text-start text-lg xl:flex-row max-w-[500px] items-center snap-center">
-        <div className="flex flex-col items-center gap-2 mt-20 ml-6 mb-6 xl:mx-32">
+        <div className="flex flex-col items-center space-y-6 min-h-screen py-12">
           <PricingCard title="Weddings" price="1,500" features={weddingFeatures} />
           <PricingCard title="Events" price="500" features={eventFeatures} />
           <PricingCard title="Portraits" price="150" features={portraitFeatures} />
