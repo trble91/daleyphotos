@@ -80,7 +80,7 @@ const Blog = () => {
       images: ["/Portraits/woman3.JPG"],
     },
     {
-      title: "Holiuday Shoots",
+      title: "Holiday Shoots",
       text: `
    Step into a world of enchanting memories with our photography services. From weddings to family gatherings and holiday festivities, our skilled photographers specialize in transforming moments into timeless treasures. Embark on a journey with us to create magical memories that will forever warm your heart. Reserve your session today and let us weave your story through captivating images.
       `,
