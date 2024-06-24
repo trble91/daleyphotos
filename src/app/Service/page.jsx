@@ -40,7 +40,7 @@ export default function Service() {
         <div className="flex flex-col relative gap-0 mt-20 mb-8 xl:mx-32">
           <PricingCard title="Weddings" price="1,500" features={weddingFeatures} />
           <PricingCard title="Events" price="500" features={eventFeatures} />
-          <PricingCard title="Portraits" price="150" features={portraitFeatures} />
+          <PricingCard title="Portraits" price="250" features={portraitFeatures} />
         </div>
         </div>
 
