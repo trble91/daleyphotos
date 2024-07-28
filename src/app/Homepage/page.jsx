@@ -17,8 +17,8 @@ export default function Homepage() {
             scale: 0.5,
           }}
           animate={{
-            x: 25,
-            y: 40,
+            x: 0,
+            y: 35,
             opacity: 1,
             scale: 1,
           }}
