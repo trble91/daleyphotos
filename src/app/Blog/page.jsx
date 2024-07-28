@@ -1,23 +1,27 @@
 "use client";
 
-import React from "react";
-import BlogPost from "../Components/BlogPost.jsx";
+import React, { useState } from "react";
+import BlogPost from "./BlogPost";
+import Modal from "./Modal";
 
 const Blog = () => {
+  const [selectedPost, setSelectedPost] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   const BlogPosts = [
     {
       title: "The Meaning of Photography",
       text: `
         The concept of still imagery revolves around composing shots, with the rule of thirds playing a crucial role. This technique often results in captivating and well-structured images, which can be enhanced through post-production editing.
-        
+
         On the following page, you'll find my preferred camera settings for photography. Let’s briefly discuss some key terms and their interrelation:
-        
+
         1. **Aperture**: The opening through which light enters, located where the lens attaches to the camera body.
         2. **Shutter Speed**: The duration the shutter remains open. Imagine blinking slowly versus quickly to understand the difference in exposure.
         3. **ISO**: Determines an image's brightness; higher ISO levels increase brightness but can add noise.
-        
+
         When these elements work together, along with the appropriate lens (focal length), an image can truly come to life. Lighting and angles are also crucial. For example, when using a backdrop, place the subject 3 feet in front of it. For light backdrops, set the lights three stops higher than those on the subject, and for dark backdrops, do the opposite.
-        
+
         By understanding and manipulating these settings, you can create stunning and well-composed shots.
       `,
       images: ["/assets/bride.jpg"],
@@ -29,12 +33,12 @@ const Blog = () => {
         - ISO: 100
         - Aperture: F/1.8
         - Shutter: 1/1250
-        
+
         Lifestyle:
         - ISO: Adjust as needed
         - Aperture: F/1.8
         - Shutter: 1/1200
-        
+
         *These shots will be better when composed properly.
       `,
       images: ["/Portraits/woman3.JPG"],
@@ -48,6 +52,15 @@ const Blog = () => {
     },
   ];
 
+  const openModal = (post) => {
+    setSelectedPost(post);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <>
       <div className="text-center items-center mt-16 -mb-2 uppercase text-xl font-bold tracking-[20px] text-stone-300">
@@ -58,11 +71,19 @@ const Blog = () => {
           <BlogPost
             key={index}
             title={post.title}
-            text={post.text}
             images={post.images}
+            onClick={() => openModal(post)}
           />
         ))}
       </div>
+      {selectedPost && (
+        <Modal
+          isOpen={isModalOpen}
+          onClose={closeModal}
+          title={selectedPost.title}
+          text={selectedPost.text}
+        />
+      )}
     </>
   );
 };
