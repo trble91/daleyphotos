@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link"
 import Image from "next/image";
 
 const BlogPost = ({ title, text, images }) => {
@@ -29,9 +30,14 @@ const BlogPost = ({ title, text, images }) => {
           <h4 className="block font-sans text-2xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
             {title}
           </h4>
-          <p className="block mt-3 font-sans text-xl antialiased font-normal leading-relaxed text-gray-700">
-            {text}
-          </p>
+          <Link href={images}>
+                <button
+                  className="block w-full py-3 mt-3 text-xs font-thin uppercase transition bg-slate-600 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+                  type="button"
+                >
+                  View More
+                </button>
+          </Link>
         </div>
         <div className="flex items-center justify-between p-6">
           <p className="block font-sans uppercase text-base antialiased font-normal leading-relaxed text-inherit">
@@ -80,7 +86,7 @@ const Blog = () => {
       images: ["/Portraits/woman3.JPG"],
     },
     {
-      title: "Holiuday Shoots",
+      title: "Holiday Shoots",
       text: `
    Step into a world of enchanting memories with our photography services. From weddings to family gatherings and holiday festivities, our skilled photographers specialize in transforming moments into timeless treasures. Embark on a journey with us to create magical memories that will forever warm your heart. Reserve your session today and let us weave your story through captivating images.
       `,
