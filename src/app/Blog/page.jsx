@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import BlogPost from "./BlogPost";
-import Modal from "./Modal";
+import BlogPost from "../Components/BlogPost.jsx";
+import Modal from "../Components/Modal.jsx";
 
 const Blog = () => {
   const [selectedPost, setSelectedPost] = useState(null);
@@ -66,6 +66,7 @@ const Blog = () => {
       <div className="text-center items-center mt-16 -mb-2 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
+      <p className="text-center text-sm text-stone-200 font-thin mt-7 -mb-8">Click text to view details</p>
       <div className="flex flex-col place-items-center min-h-screen py-12">
         {BlogPosts.map((post, index) => (
           <BlogPost
