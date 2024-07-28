@@ -16,7 +16,7 @@ const Modal = ({ isOpen, onClose, title, text }) => {
         <h2 className="text-xl font-semibold mb-4">{title}</h2>
         <p className="text-gray-700 mb-4">{text}</p>
         <p className="block font-sans uppercase text-base antialiased font-normal leading-relaxed text-inherit">
-          Posted on: {dateTime}
+          {dateTime}
         </p>
         <button
           onClick={onClose}
