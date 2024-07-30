@@ -13,12 +13,10 @@ const Blog = () => {
       title: "The Meaning of Photography",
       text: `
         The concept of still imagery revolves around composing shots, with the rule of thirds playing a crucial role. This technique often results in captivating and well-structured images, which can be enhanced through post-production editing.
-
-        On the following page, you'll find my preferred camera settings for photography. Let’s briefly discuss some key terms and their interrelation:
-
-        1. **Aperture**: The opening through which light enters, located where the lens attaches to the camera body.
-        2. **Shutter Speed**: The duration the shutter remains open. Imagine blinking slowly versus quickly to understand the difference in exposure.
-        3. **ISO**: Determines an image's brightness; higher ISO levels increase brightness but can add noise.
+        
+        1. **Aperture**
+        2. **Shutter Speed**
+        3. **ISO**
 
         When these elements work together, along with the appropriate lens (focal length), an image can truly come to life. Lighting and angles are also crucial. For example, when using a backdrop, place the subject 3 feet in front of it. For light backdrops, set the lights three stops higher than those on the subject, and for dark backdrops, do the opposite.
 
