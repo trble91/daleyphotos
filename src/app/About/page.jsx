@@ -1,7 +1,5 @@
 "use client";
 
-import Footer from "@/Footer/page";
-import Navbar from "@/Navbar/page";
 import React from "react";
 import Logo from "../Components/Logo";
 
@@ -21,7 +19,7 @@ export default function Bio() {
         </h3>
         <Logo />
         <div className="flex absolute flex-row text-start text-stone-200 sm:text-center text-lg top-56 xl:flex-row max-w-[700px] items-center snap-center">
-          <p className="flex relative ml-4 text-left font-thin text-m mb-8">
+          <p className="flex relative ml-1 text-left font-thin text-m mb-8">
             {about}
           </p>
         </div>

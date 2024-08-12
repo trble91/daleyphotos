@@ -47,7 +47,7 @@ export default function Weddings() {
             scale: 1,
           }}
           transition={{
-            duration: 2.0,
+            duration: 0.4,
           }}
           className="flex relative text-center snap-center"
         >
@@ -75,7 +75,7 @@ export default function Weddings() {
             scale: 1,
           }}
           transition={{
-            duration: 2.0,
+            duration: 0.4,
           }}
           className="flex relative text-center snap-center"
         >

@@ -49,7 +49,7 @@ export default function Photography() {
               scale: 1,
             }}
             transition={{
-              duration: 1.5,
+              duration: 0.4,
             }}
             className="relative flex flex-col text-center bg-white shadow-md rounded-xl w-96 sm:mx-2 xl:mx-9"
           >

@@ -25,7 +25,7 @@ export default function Service() {
     'One locations',
     'Two hours',
     'Three Looks',
-    'Four edits',
+    'Seven edits',
     '5% off next shoot w/referral',
   ];
 

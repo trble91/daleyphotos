@@ -36,7 +36,7 @@ export default function Gallery() {
         <motion.div
           initial={{ x: 500, opacity: 0, scale: 0.5 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1.8 }}
+          transition={{ duration: 0.4 }}
           className="flex relative text-center snap-center"
         >
           {events.slice(0, 3).map((event, index) => (
@@ -54,7 +54,7 @@ export default function Gallery() {
         <motion.div
           initial={{ x: 500, opacity: 0, scale: 0.5 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1.8 }}
+          transition={{ duration: 0.4 }}
           className="flex relative text-center snap-center"
         >
          {events.slice(3, 6).map((event, index) => (

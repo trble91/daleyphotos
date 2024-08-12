@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# W Daley Photography
 
-## Getting Started
+## Welcome
+Welcome to my photography portfolio! Here you'll find a collection of my favorite photos that I've captured over the years. Feel free to browse and get in touch if you'd like to work together.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Portfolio
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Portrait Photography
+![Portrait 1](link-to-your-portrait-photo-1.jpg)
+*Description of Portrait Photo 1*
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Portrait Photography
+![Portrait 1](link-to-your-portrait-photo-1.jpg)
+*Description of Portrait Photo 1*
 
-## Learn More
+### Street Photography
+![Street 1](link-to-your-street-photo-1.jpg)
+*Description of Street Photo 1*
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## About Me
+Hello! I'm Will Daley, a passionate photographer based in [Your Location]. My photography journey is a vibrant tapestry woven from my eclectic upbringing and artistic aspirations. Despite struggling in school, I was encouraged to explore creativity. Raised as a first-generation American to West Indian parents, music shaped my early years—from Al Green to Tupac, each note fueled my passion. Transitioning from music to photography, I found a new canvas to express emotions and stories. Each click of the shutter became a brushstroke in my visual narrative—a journey from capturing intimate portraits to vibrant landscapes. Driven by a thirst for knowledge and a desire to push boundaries, photography became my avenue to blend creativity and storytelling. Together, let's inspire and illuminate the world one click at a time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![About Me Image](link-to-your-about-me-image.jpg)
 
-## Deploy on Vercel
+### My Story
+I began my photography journey six years ago after the passing of my mother. It was a transformative time, and through the lens, I found solace and a way to connect with the world around me. Since then, I've traveled across the nation, capturing stunning images that tell unique stories. For me, photography isn't just a hobby; it's a way of life.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---

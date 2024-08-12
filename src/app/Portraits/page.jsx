@@ -14,7 +14,7 @@ export default function Portraits() {
     { image: "/Portraits/prom2.JPG", description: "Let us bring your prom and graduation memories to life with stunning portraits."},
     { image: "/Portraits/woman1.JPG", description: "Whether you're an artist, model, or content creator, our professional portrait photography can help you stand out." },
     { image: "/Portraits/woman2.JPG", description: "Elevate your social presence with our professional portrait photography." },
-    { image: "/Portraits/woman3.JPG", description: "Elevate your social presence with stunning images that capture your unique personality and style. Trust us to create visuals that leave a lasting impression." },
+    { image: "/Portraits/woman3.JPG", description: "Trust us to create stunning visuals that'll capture your personality, leaving a lasting impression." },
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
@@ -45,7 +45,7 @@ export default function Portraits() {
             scale: 1,
           }}
           transition={{
-            duration: 1.5,
+            duration: 0.4,
           }}
           className="flex relative text-center snap-center"
         >
@@ -73,7 +73,7 @@ export default function Portraits() {
             scale: 1,
           }}
           transition={{
-            duration: 1.8,
+            duration: 0.4,
           }}
           className="flex relative text-center snap-center"
         >
