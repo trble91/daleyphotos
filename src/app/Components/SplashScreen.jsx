@@ -46,7 +46,7 @@ const styles = {
     left: 0, 
     width: '100vw',
     height: '100vh',
-    backgroundColor: '#6b7280',
+    backgroundColor: "#6A6B78",
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',

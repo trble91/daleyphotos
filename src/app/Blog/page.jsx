@@ -12,17 +12,15 @@ const Blog = () => {
     {
       title: "The Meaning of Photography",
       text: `
-        The concept of still imagery revolves around composing shots, with the rule of thirds playing a crucial role. This technique often results in captivating and well-structured images, which can be enhanced through post-production editing.
+The concept of still imagery revolves around composing shots, with the rule of thirds playing a crucial role. This technique often results in captivating and well-structured images, which can be enhanced through post-production editing.
 
-        On the following page, you'll find my preferred camera settings for photography. Let’s briefly discuss some key terms and their interrelation:
+On the following page, you'll find my preferred camera settings for photography. Let’s briefly discuss some key terms and their interrelation:
 
-        1. **Aperture**: The opening through which light enters, located where the lens attaches to the camera body.
-        2. **Shutter Speed**: The duration the shutter remains open. Imagine blinking slowly versus quickly to understand the difference in exposure.
-        3. **ISO**: Determines an image's brightness; higher ISO levels increase brightness but can add noise.
+1. **Aperture**
+2. **Shutter Speed**
+3. **ISO**
 
-        When these elements work together, along with the appropriate lens (focal length), an image can truly come to life. Lighting and angles are also crucial. For example, when using a backdrop, place the subject 3 feet in front of it. For light backdrops, set the lights three stops higher than those on the subject, and for dark backdrops, do the opposite.
-
-        By understanding and manipulating these settings, you can create stunning and well-composed shots.
+By understanding and manipulating these settings, you can create stunning and well-composed shots.
       `,
       images: ["/assets/bride.jpg"],
       date: "Posted on: 27 Jul 2024",
@@ -30,17 +28,17 @@ const Blog = () => {
     {
       title: "Photography Camera Settings",
       text: `
-       Portraits:
-        - ISO: 100
-        - Aperture: F/1.8
-        - Shutter: 1/1250
+Portraits:
+- ISO: 100
+- Aperture: F/1.8
+- Shutter: 1/1250
 
-        Lifestyle:
-        - ISO: Adjust as needed
-        - Aperture: F/1.8
-        - Shutter: 1/1200
+Lifestyle:
+- ISO: Adjust as needed
+- Aperture: F/1.8
+- Shutter: 1/1200
 
-        *These shots are better when composed properly.
+*These shots are better when composed properly.
       `,
       images: ["/Portraits/woman3.JPG"],
       date: "Posted on: 01 Aug 2024",
@@ -48,7 +46,7 @@ const Blog = () => {
     {
       title: "Holiday Shoots",
       text: `
-        Step into a world of enchanting memories with our photography services. From weddings to family gatherings and holiday festivities, our skilled photographers specialize in transforming moments into timeless treasures. Embark on a journey with us to create magical memories that will forever warm your heart. Reserve your session today and let us weave your story through captivating images.
+Step into a world of enchanting memories with our photography services. From weddings to family gatherings and holiday festivities, our skilled photographers specialize in transforming moments into timeless treasures. Embark on a journey with us to create magical memories that will forever warm your heart. Reserve your session today and let us weave your story through captivating images.
       `,
       images: ["/assets/Bailey-bw.png"],
       date: "Posted on: 07 Aug 2024",
@@ -56,7 +54,7 @@ const Blog = () => {
     {
       title: "Content Creation",
       text: `
-        The intensity of inspiration, your energy and focus levels, the complexity of the project, and external factors all play a significant role in how long you can sustain your creative drive. Since inspiration can ebb and flow, it's crucial to develop habits and routines that help you keep creating, even when that initial spark begins to fade.
+The intensity of inspiration, your energy and focus levels, the complexity of the project, and external factors all play a significant role in how long you can sustain your creative drive. Since inspiration can ebb and flow, it's crucial to develop habits and routines that help you keep creating, even when that initial spark begins to fade.
       `,
       images: ["/assets/yankee-Large.jpeg"],
       date: "Posted on: 12 Aug 2024",
