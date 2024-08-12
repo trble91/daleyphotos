@@ -8,9 +8,9 @@ const Modal = ({ isOpen, onClose, title, text, date }) => {
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
       <div className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full">
         <h2 className="text-xl font-semibold mb-4">{title}</h2>
-        <p className="text-gray-700 mb-4">{text}</p>
+        <p className="text-gray-700 mb-4 whitespace-pre-wrap">{text}</p>
         <p className="block font-sans uppercase text-base antialiased font-normal leading-relaxed text-inherit">
-         {date}
+          {date}
         </p>
         <button
           onClick={onClose}
