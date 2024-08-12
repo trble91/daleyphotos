@@ -56,9 +56,9 @@ const Blog = () => {
     {
       title: "Content Creation",
       text: `
-    .
+        The intensity of inspiration, your energy and focus levels, the complexity of the project, and external factors all play a significant role in how long you can sustain your creative drive. Since inspiration can ebb and flow, it's crucial to develop habits and routines that help you keep creating, even when that initial spark begins to fade.
       `,
-      images: ["/assets/Bailey-bw.png"],
+      images: ["/assets/yankee-Large.jpeg"],
       date: "Posted on: 12 Aug 2024",
     },
   ];
@@ -77,7 +77,9 @@ const Blog = () => {
       <div className="text-center items-center mt-16 -mb-2 uppercase text-xl font-bold tracking-[20px] text-stone-300">
         Blog
       </div>
-      <p className="text-center text-sm text-stone-200 font-thin mt-7 -mb-8">Click text to view details</p>
+      <p className="text-center text-sm text-stone-200 font-thin mt-7 -mb-8">
+        Click text to view details
+      </p>
       <div className="flex flex-col place-items-center min-h-screen py-12">
         {BlogPosts.map((post, index) => (
           <BlogPost
