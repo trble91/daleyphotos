@@ -7,7 +7,7 @@ export default function Service() {
 
   const weddingFeatures = [
     '1 Photographer',
-    '5hour coverage',
+    '8hour coverage',
     'Two 30sec content reel',
     'Digital Wedding Album',
     'USB-C drive w/images',
@@ -38,9 +38,9 @@ export default function Service() {
         </h3>
         <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
         <div className="flex flex-col relative gap-0 mt-20 mb-8 xl:mx-32">
-          <PricingCard title="Weddings" price="1,500" features={weddingFeatures} />
-          <PricingCard title="Events" price="500" features={eventFeatures} />
-          <PricingCard title="Portraits" price="250" features={portraitFeatures} />
+          <PricingCard title="Weddings" price="" features={weddingFeatures} />
+          <PricingCard title="Events" price="" features={eventFeatures} />
+          <PricingCard title="Portraits" price="" features={portraitFeatures} />
         </div>
         </div>
 

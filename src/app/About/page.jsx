@@ -1,7 +1,5 @@
 "use client";
 
-import Footer from "@/Footer/page";
-import Navbar from "@/Navbar/page";
 import React from "react";
 import Logo from "../Components/Logo";
 
