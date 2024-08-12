@@ -10,14 +10,14 @@ const PricingCard = ({ title, price, features }) => {
   return (
   
       <div className="relative flex-col bg-clip-border rounded-xl  bg-gradient-to-tr from-gray-700 to-gray-500 text-stone-200 shadow-gray-400/20 shadow-md w-full max-w-[20rem] p-8 mt-10">
-        <div className="relative pb-8 m-0 -mt-4 mb-8 overflow-hidden text-center text-stone-300 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
-          <p className="block font-sans text-sm antialiased font-normal leading-normal text-stone-300 uppercase">
+        <div className="relative pb-6 m-0 -mt-4 mb-8 overflow-hidden text-center text-stone-300 bg-transparent border-b rounded-none shadow-none bg-clip-border border-white/10">
+          <p className="block font-sans text-xl antialiased font-normal leading-normal text-stone-300 uppercase">
             {title}
           </p>
-          <h1 className="flex justify-center gap-1 mt-6 font-sans antialiased font-normal tracking-normal text-stone-300 text-7xl">
+          {/* <h1 className="flex justify-center gap-1 mt-6 font-sans antialiased font-normal tracking-normal text-stone-300 text-7xl">
             <span className="mt-2 text-4xl text-stone-300">$</span>
             {price}
-          </h1>
+          </h1> */}
         </div>
         <div className="p-0">
           <ul className="flex flex-col gap-4">

@@ -48,6 +48,14 @@ const Blog = () => {
       images: ["/assets/Bailey-bw.png"],
       date: "Posted on: 07 Aug 2024",
     },
+    {
+      title: "Content Creation",
+      text: `
+    .
+      `,
+      images: ["/assets/Bailey-bw.png"],
+      date: "Posted on: 12 Aug 2024",
+    },
   ];
 
   const openModal = (post) => {
