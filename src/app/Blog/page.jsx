@@ -56,8 +56,16 @@ Step into a world of enchanting memories with our photography services. From wed
       text: `
 The intensity of inspiration, your energy and focus levels, the complexity of the project, and external factors all play a significant role in how long you can sustain your creative drive. Since inspiration can ebb and flow, it's crucial to develop habits and routines that help you keep creating, even when that initial spark begins to fade.
       `,
-      images: ["/assets/yankee-Large.jpeg"],
+      images: ["/assets/God.jpg"],
       date: "Posted on: 12 Aug 2024",
+    },
+    {
+      title: "Summertime",
+      text: `
+For a time, I spent my summers working at a summer camp. During this period, I discovered the beauty of photography and began using this skill to create art. This journey allowed me to tap into a world of imagination, where everything I once thought was possible, and even the "impossible," came to life.
+      `,
+      images: ["/Events/kids2.jpg"],
+      date: "Posted on: 16 Aug 2024",
     },
   ];
 
