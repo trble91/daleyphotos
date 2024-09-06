@@ -110,7 +110,7 @@ export default function Portraits() {
             <p className="mt-4 font-light text-md max-w-[300px]">{selectedImage.description}</p>
             <button
               onClick={closeModal}
-              className="mt-4 px-4 py-2 bg-slate-500 text-white rounded"
+              className="mt-4 px-4 py-2 bg-zinc-500 text-white rounded"
             >
               Close
             </button>

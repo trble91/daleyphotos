@@ -77,7 +77,7 @@ export default function Photography() {
             <div className="p-6 pt-0">
               <Link href={image.href}>
                 <button
-                  className="block w-full py-3 text-xs font-thin uppercase transition bg-slate-600 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+                  className="block w-full py-3 text-xs font-thin uppercase transition bg-zinc-500 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
                   type="button"
                 >
                   View More

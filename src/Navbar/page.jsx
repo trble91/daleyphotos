@@ -14,12 +14,12 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-end space-x-2 mt-12 xl:mr-6 xs:text-xs text-stone-100 font-thin uppercase tracking-[2px]">
+      <nav className="flex justify-end space-x-2 mt-12 xl:mr-6 sm:text-xs xs:text-xs text-stone-100 font-thin uppercase tracking-[2px]">
         {links.map((link) => (
           <Link
             key={link.href}
             href={link.href}
-            className="hover:text-slate-400 cursor-pointer"
+            className="hover:text-zinc-500 cursor-pointer"
           >
             {link.label}
           </Link>
