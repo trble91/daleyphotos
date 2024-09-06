@@ -2,9 +2,9 @@ import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
 export async function POST(request) {
-  const { name, email, message } = await request.json();
+  const { name, email, tel, message } = await request.json();
 
-  console.log('Received data:', { name, email, message });
+  console.log('Received data:', { name, email, tel, message });
 
   const emailService = process.env.EMAIL_SERVICE;
   const emailUser = process.env.EMAIL_USER;
@@ -28,8 +28,8 @@ export async function POST(request) {
     from: emailUser,
     to:  recipient,
     subject: "New Contact Form Submission",
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
-    html: `<h3> ${name}</h3><h4>${email}</h4><p>${message}</p>`
+    text: `Name: ${name}\nEmail: ${email}\nTel: ${tel}\nMessage: ${message}`,
+    html: `<h3> ${name}</h3><h4>${email}</h4><p>${tel}</p><p>${message}</p>`
   };
 
   try {
