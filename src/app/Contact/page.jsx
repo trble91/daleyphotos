@@ -115,6 +115,9 @@ const ContactForm = () => {
           </button>
           {status && <p className="mt-4 text-gray-700">{status}</p>}
         </form>
+        <p className="flex-col text-center text-sm -mt-6 max-w-[300px] text-stone-300 font-thin">
+       * A non-refundable deposit of 50% of the quoted price is required to secure the service.
+        </p>
       </div>
     </>
   );
