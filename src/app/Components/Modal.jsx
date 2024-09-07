@@ -14,7 +14,7 @@ const Modal = ({ isOpen, onClose, title, text, date }) => {
         </p>
         <button
           onClick={onClose}
-          className="px-4 py-2 block w-full text-xs font-thin uppercase transition bg-slate-600 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
+          className="px-4 py-2 block w-full text-xs font-thin uppercase transition bg-zinc-500 text-stone-200 rounded-lg shadow-md hover:shadow-lg hover:opacity-85 focus:opacity-85 active:opacity-85"
         >
           Close
         </button>
