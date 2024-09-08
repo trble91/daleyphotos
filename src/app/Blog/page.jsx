@@ -76,7 +76,7 @@ For a time, I spent my summers working at a summer camp. During this period, I d
 
       -@itsTRBLE
       `,
-      images: ["/assets/nuve.jpg"],
+      images: ["/assets/savior.jpg"],
       date: "Posted on: 08 Sep 2024",
     },
   ];
