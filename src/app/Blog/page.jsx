@@ -73,6 +73,8 @@ For a time, I spent my summers working at a summer camp. During this period, I d
       From a young age, I’ve been immersed in the world of the arts, surrounded by friends who share the same passion. My journey began in middle school as an actor and dancer, and I spent my formative years singing in the church choir. As I grew, my artistic expression evolved. I delved into rap, performing in various churches while honing my skills to be clever and impactful, all while respecting my faith. A special shoutout to Mr. B for guiding me through that phase.
       
       During my senior year of high school, I discovered DJing, which quickly became a new passion. I continued to develop my skills throughout my brief time in college. Returning home, I turned DJing into a source of income, blending creativity with entrepreneurship.
+
+      -@itsTRBLE
       `,
       images: ["/assets/nuve.jpg"],
       date: "Posted on: 08 Sep 2024",
