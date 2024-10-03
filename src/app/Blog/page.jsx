@@ -79,6 +79,22 @@ For a time, I spent my summers working at a summer camp. During this period, I d
       images: ["/assets/savior.jpg"],
       date: "Posted on: 08 Sep 2024",
     },
+    {
+      title: "Studio Portraits",
+      text: `
+    Started experimenting with a single lighting source and flash technique.
+      `,
+      images: ["/assets/soloportrait.jpg"],
+      date: "Posted on: 03 Oct 2024",
+    },
+    {
+      title: "A Special Day",
+      text: `
+For my first same day marriage, my goal was to capture the intricate details typically found in a traditional wedding while incorporating the aesthetics and natural backdrops of outdoor portraits. I aimed to emphasize stylistic choices and subtle details throughout the process.
+      `,
+      images: ["/assets/tuckers.jpg"],
+      date: "Posted on: 03 Oct 2024",
+    },
   ];
 
   const openModal = (post) => {
