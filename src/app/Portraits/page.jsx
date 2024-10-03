@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Modal from "react-modal";
+import Link from "next/link";
 
 export default function Portraits() {
   const portraits = [
@@ -27,12 +28,19 @@ export default function Portraits() {
     setSelectedImage(null);
   };
 
+  const featureLink = {
+    href: "/Photography",
+  };
+
   return (
     <>
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 uppercase tracking-[10px] text-stone-200 text-md">
+        <h3 className="mt-10 text-center uppercase tracking-[10px] text-stone-200 text-md">
           Portraits
         </h3>
+        <p className="text-sm text-stone-200 font-thin mt-7 -mb-8">
+        Click image to enlarge
+      </p>
         <motion.div
           initial={{
             x: -500,
@@ -50,7 +58,12 @@ export default function Portraits() {
           className="flex relative text-center snap-center"
         >
           {portraits.slice(0, 4).map((portrait, index) => (
-            <div key={index} className="relative mb-4 cursor-pointer" onClick={() => openModal(portrait)}>
+            <motion.div key={index} 
+            className="relative mb-4 cursor-pointer" 
+            onClick={() => openModal(portrait)}
+            whilehover={{ y: -200 }} 
+            transition={{ type: "spring", stiffness: 300}}
+            >
               <Image
                 src={portrait.image}
                 alt={`Image ${index + 1}`}
@@ -58,7 +71,7 @@ export default function Portraits() {
                 height={200}
                 className="w-full h-full object-cover"
               />
-            </div>
+            </motion.div>
           ))}
         </motion.div>
         <motion.div
@@ -67,6 +80,7 @@ export default function Portraits() {
             opacity: 0,
             scale: 0.5,
           }}
+          
           animate={{
             x: 0,
             opacity: 1,
@@ -78,7 +92,12 @@ export default function Portraits() {
           className="flex relative text-center snap-center"
         >
           {portraits.slice(4, 8).map((portrait, index) => (
-            <div key={index} className="relative mb-4 cursor-pointer" onClick={() => openModal(portrait)}>
+            <motion.div key={index} 
+            className="relative mb-4 cursor-pointer" 
+            onClick={() => openModal(portrait)}
+            whilehover={{ y: -200 }} 
+            transition={{ type: "spring", stiffness: 300}}
+            >
               <Image
                 src={portrait.image}
                 alt={`Image ${index + 1}`}
@@ -86,7 +105,7 @@ export default function Portraits() {
                 height={200}
                 className="w-full h-full object-cover"
               />
-            </div>
+            </motion.div>
           ))}
         </motion.div>
       </div>
@@ -117,6 +136,14 @@ export default function Portraits() {
           </div>
         )}
       </Modal>
+      <Link href={featureLink.href}>
+          <button
+            className="align-middle select-none text-white font-sans font-thin text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-sm py-3.5 px-7 rounded-lg bg-zinc-500 shadow-md shadow-blue-gray-500/10 hover:shadow-lg hover:shadow-blue-gray-500/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none block w-full hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+            type="button"
+          >
+            Back
+          </button>
+          </Link>
     </>
   );
 }
