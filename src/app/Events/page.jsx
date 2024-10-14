@@ -11,8 +11,10 @@ export default function Gallery() {
   const events = [
     { image: "/Events/kids.jpg", description: "Kids enjoying a fun day." },
     { image: "/Events/yoba.JPG", description: "Community event with Yoba." },
+    { image: "/Events/t3a.JPG", description: "Rhythm meets poetry!" },
     { image: "/Events/kids2.jpg", description: "Summertime Magic" },
     { image: "/Events/fight.JPG", description: "Train like no one is watching!" },
+    { image: "/Events/t3.JPG", description: "TYMELESS!" },
     { image: "/Events/train.JPG", description: "Capturing the stillness of motion, this shot freezes a train in time, a moment of power and grace captured in perfect detail." },
     { image: "/Events/dishonor.JPG", description: "'You were given the choice between war and dishonor. You choose dishonor and you will have war.' Winston Churchill" },
   ];
@@ -47,7 +49,7 @@ export default function Gallery() {
           transition={{ duration: 0.4 }}
           className="flex relative text-center snap-center"
         >
-          {events.slice(0, 3).map((event, index) => (
+          {events.slice(1, 4).map((event, index) => (
             <div key={index} className="relative mb-4 cursor-pointer" onClick={() => openModal(event)}>
               <Image
                 src={event.image}
@@ -65,7 +67,7 @@ export default function Gallery() {
           transition={{ duration: 0.4 }}
           className="flex relative text-center snap-center"
         >
-         {events.slice(3, 6).map((event, index) => (
+         {events.slice(4,8).map((event, index) => (
             <div key={index} className="relative mb-4 cursor-pointer" onClick={() => openModal(event)}>
               <Image
                 src={event.image}
