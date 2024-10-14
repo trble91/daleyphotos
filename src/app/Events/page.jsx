@@ -11,10 +11,10 @@ export default function Gallery() {
   const events = [
     { image: "/Events/kids.jpg", description: "Kids enjoying a fun day." },
     { image: "/Events/yoba.JPG", description: "Community event with Yoba." },
-    { image: "/Events/t3a.JPG", description: "Rhythm meets poetry!" },
+    { image: "/Events/t3a.jpg", description: "Rhythm meets poetry!" },
     { image: "/Events/kids2.jpg", description: "Summertime Magic" },
     { image: "/Events/fight.JPG", description: "Train like no one is watching!" },
-    { image: "/Events/t3.JPG", description: "TYMELESS!" },
+    { image: "/Events/t3.jpg", description: "TYMELESS!" },
     { image: "/Events/train.JPG", description: "Capturing the stillness of motion, this shot freezes a train in time, a moment of power and grace captured in perfect detail." },
     { image: "/Events/dishonor.JPG", description: "'You were given the choice between war and dishonor. You choose dishonor and you will have war.' Winston Churchill" },
   ];
