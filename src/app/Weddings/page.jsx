@@ -39,10 +39,10 @@ export default function Weddings() {
     <>
      
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 uppercase tracking-[10px] text-stone-200 text-md sm:text-stone-300 sm:text-base">
+        <h3 className="mt-10 uppercase tracking-[10px] text-red-800 text-md sm:text-red-800 sm:text-base">
           Weddings
         </h3>
-        <p className="text-sm text-stone-200 font-thin mt-7 -mb-8">
+        <p className="text-sm text-slate-700 font-thin mt-7 -mb-8">
         Click image to enlarge
       </p>
         <motion.div
