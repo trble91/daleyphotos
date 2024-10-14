@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Logo() {
   return (
-    <div className="-mt-42 ">
+    <div className="-mt-42 color-inverse">
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.7 }}
         animate={{ x: 5, y: -25, opacity: 1, scale: 1.2 }}
