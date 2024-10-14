@@ -32,7 +32,7 @@ export default function Photography() {
   return (
     <>
       <div className="flex flex-col items-center space-y-6 min-h-screen py-12">
-        <h3 className="uppercase tracking-[10px] text-center text-stone-200 text-xl mb-8">
+        <h3 className="uppercase tracking-[10px] text-center text-red-800 text-xl mb-8">
           Portraits, Weddings & Events
         </h3>
         {imageSources.map((image, index) => (

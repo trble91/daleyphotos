@@ -42,13 +42,13 @@ const ContactForm = () => {
   return (
     <>
       <div className="flex items-center flex-col top-5 justify-center min-h-screen snap-center">
-        <p className="flex-col text-center max-w-[500px] text-stone-300 font-thin">
+        <p className="flex-col text-center max-w-[500px] text-red-800 font-thin">
           To inquire about any and all services. Fill out this contact form
           expressing your photography needs.
         </p>
         <form
           onSubmit={handleSubmit}
-          className="max-w-md w-full bg-stone-200 p-6 rounded-lg shadow-md mt-5 mb-10"
+          className="max-w-md w-full bg-white-900 p-6 rounded-lg shadow-md mt-5 mb-10"
         >
           <label htmlFor="name" className="block text-stone-700 text-sm font-bold mb-2">
             Name:
@@ -61,7 +61,7 @@ const ContactForm = () => {
               placeholder="Full Name"
               value={formData.name}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-stone-700 bg-stone-200"
+              className="form-input mt-1 block w-full rounded-sm border-stone-700 bg-white-900"
             />
           </label>
           <label htmlFor="email" className="block text-stone-700 text-sm font-bold mb-2">
@@ -75,7 +75,7 @@ const ContactForm = () => {
               placeholder="Email@example.com"
               value={formData.email}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
+              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-white-900"
             />
           </label>
           <label htmlFor="tel" className="block text-stone-700 text-sm font-bold mb-2">
@@ -90,7 +90,7 @@ const ContactForm = () => {
               onChange={handleChange}
               pattern="\d{10}"
               maxLength="10"
-              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-stone-200"
+              className="form-input mt-1 block w-full rounded-sm border-gray-700 bg-white-900"
             />
           </label>
           
@@ -103,19 +103,19 @@ const ContactForm = () => {
               placeholder="Please provide a brief description of the shoot. If you are under 21, a parent or guardian must submit the details on your behalf. Thank you, and I look forward to working with you!"
               value={formData.message}
               onChange={handleChange}
-              className="form-input mt-1 block w-full rounded-sm border-stone-700 resize-none bg-stone-200"
+              className="form-input mt-1 block w-full rounded-sm resize-none bg-white-900"
               rows="4"
             />
           </label>
           <button
             type="submit"
-            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-gray-400 focus:shadow-outline-gray-700 hover:bg-zinc-600 hover:text-gray-300 active:bg-zinc-500"
+            className="text-stone-700 item-center font-bold py-2 px-4 mt-4 rounded focus:outline-gray-300 focus:shadow-outline-gray-300 hover:bg-gray-300 hover:text-gray-900 active:bg-slate-300"
           >
             Submit
           </button>
           {status && <p className="mt-4 text-gray-700">{status}</p>}
         </form>
-        <p className="flex-col text-center text-sm -mt-6 max-w-[300px] text-stone-300 font-thin">
+        <p className="flex-col text-center text-sm -mt-6 max-w-[300px] text-red-800 font-thin">
        * A non-refundable deposit of 50% of the quoted price is required to secure the service.
         </p>
       </div>

@@ -35,10 +35,10 @@ export default function Portraits() {
   return (
     <>
       <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">
-        <h3 className="mt-10 text-center uppercase tracking-[10px] text-stone-200 text-md">
+        <h3 className="mt-10 text-center uppercase tracking-[10px] text-red-800 text-md">
           Portraits
         </h3>
-        <p className="text-sm text-stone-200 font-thin mt-7 -mb-8">
+        <p className="text-sm text-slate-700 text-center font-thin mt-7 -mb-8">
         Click image to enlarge
       </p>
         <motion.div

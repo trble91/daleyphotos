@@ -33,7 +33,7 @@ export default function Service() {
     <>
      
       <div className="flex relative text-center  md:text-left xl:flex-row xl:px-10 min-h-screen xl:space-y-0 xl:ml-10 snap-center">
-        <h3 className="absolute ml-8 top-20 items-center uppercase tracking-[20px] text-2xl text-stone-200">
+        <h3 className="absolute ml-8 top-20 items-center uppercase tracking-[20px] text-2xl text-red-800">
           Services
         </h3>
         <div className="flex flex-col items-center text-center min-h-screen space-y-4 mx-auto">

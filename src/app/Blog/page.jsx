@@ -108,10 +108,10 @@ For my first same day marriage, my goal was to capture the intricate details typ
 
   return (
     <>
-      <div className="text-center items-center mt-16 -mb-2 uppercase text-xl font-bold tracking-[20px] text-stone-300">
+      <div className="text-center items-center mt-16 -mb-2 uppercase text-xl tracking-[20px] text-red-800">
         Blog
       </div>
-      <p className="text-center text-sm text-stone-200 font-thin mt-7 -mb-8">
+      <p className="text-center text-sm text-slate-700 font-thin mt-7 -mb-8">
         Click text to view details
       </p>
       <div className="flex flex-col place-items-center min-h-screen py-12">
