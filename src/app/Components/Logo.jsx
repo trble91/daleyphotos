@@ -4,6 +4,11 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Logo() {
+
+  const imageStyle = {
+    filter: 'invert(100%)'
+  };
+
   return (
     <div className="-mt-42 color-inverse">
       <motion.div
@@ -17,6 +22,7 @@ export default function Logo() {
           width={200}
           height={100}
           alt="text logo"
+          style={imageStyle}
         />
       </motion.div>
     </div>

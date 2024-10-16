@@ -95,6 +95,14 @@ For my first same day marriage, my goal was to capture the intricate details typ
       images: ["/assets/tuckers.jpg"],
       date: "Posted on: 03 Oct 2024",
     },
+    {
+      title: "TYMELESS",
+      text: `
+We often find ourselves hesitating to fully embrace the present, letting the moment slip through our fingers like grains of sand. Yet, it is in this fleeting now that joy and passion bloom, inviting us to plunge in and relish their vibrant essence.
+      `,
+      images: ["/Events/t3.jpg"],
+      date: "Posted on: 16 Oct 2024",
+    },
   ];
 
   const openModal = (post) => {
