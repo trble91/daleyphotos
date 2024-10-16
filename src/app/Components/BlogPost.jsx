@@ -12,8 +12,9 @@ const BlogPost = ({ title, images, onClick }) => {
           <Image
             key={index}
             src={image}
-            alt=""
+            alt={`Post image ${index + 1}`}
             layout="responsive"
+            className="w-1/2 h-auto p-2" 
             width={700}
             height={475}
           />
