@@ -12,13 +12,13 @@ Welcome to my photography portfolio! Here you'll find a collection of my favorit
 ![Portrait 1](link-to-your-portrait-photo-1.jpg)
 *Description of Portrait Photo 1*
 
-### Portrait Photography
+### Wedding Photography
 ![Portrait 1](link-to-your-portrait-photo-1.jpg)
-*Description of Portrait Photo 1*
+*Description of Wedding Photo 1*
 
-### Street Photography
+### Event Photography
 ![Street 1](link-to-your-street-photo-1.jpg)
-*Description of Street Photo 1*
+*Description of Event Photo 1*
 
 ---
 
